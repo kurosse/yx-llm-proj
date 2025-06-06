@@ -1,0 +1,1 @@
+"deepseek-chat" for cheaper, "deepseek-reasoner" for more expensive

@@ -1,0 +1,131 @@
+<mxfile host="65bd71144e">
+    <diagram id="OD5mrEtz2a-ZwAlbM0ZL" name="Page-1">
+        <mxGraphModel dx="1725" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-130" y="250" width="1070" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Gap Analysis Agent&lt;div&gt;(Large LLM, &amp;gt; 100B,&lt;/div&gt;&lt;div&gt;possibly API call)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Critique translation and add as prompt to student&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="405" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Student LLM&lt;br&gt;&lt;div&gt;(Small LLM, &amp;lt; 50B)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Multiple mono-lingual datasets" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="600" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="25" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="340" y="400" as="sourcePoint"/>
+                        <mxPoint x="390" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="translation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;div&gt;Fine-tuning&lt;/div&gt;Dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="585" width="86" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="440" as="sourcePoint"/>
+                        <mxPoint x="710" y="450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="613" y="450"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="If no convergence,&lt;div&gt;put the sentence-pair&lt;/div&gt;&lt;div&gt;with the critique to a&amp;nbsp;&lt;/div&gt;&lt;div&gt;fine-tune dataset&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
+                    <mxGeometry x="-0.125" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="44" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Finetune Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" parent="1" source="11" target="17" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="450" as="sourcePoint"/>
+                        <mxPoint x="550" y="390" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="740" y="638"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Enough data&lt;div&gt;selected&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+                        <mxPoint x="1" y="-45" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="340" y="440" as="sourcePoint"/>
+                        <mxPoint x="390" y="390" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="740" y="360"/>
+                            <mxPoint x="110" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Fine-tune the student model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19" vertex="1" connectable="0">
+                    <mxGeometry y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="Get similarity metrics (multiple scores, let agent optimize downstream)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="264" y="420" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="25" target="4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="440" as="sourcePoint"/>
+                        <mxPoint x="410" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="&lt;u&gt;Sample Back-Translation for Thai&lt;/u&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Lang 1 (from dataset - Eng)&lt;/b&gt;: You&#39;re driving me up the wall&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Lang 2 (from dataset - Thai)&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;คุณทำให้ฉันบ้าไปแล้ว&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Back Translation&lt;/b&gt;: You&#39;ve driven me crazy&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Critique&lt;/b&gt;: To closely align the translations, you should...&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Feed back into the student to see if similarity score improves&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="159" y="550" width="360" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Feed the translation with&lt;div&gt;critique back to the student&lt;/div&gt;" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="29" target="5" edge="1">
+                    <mxGeometry x="-0.0588" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="670" as="sourcePoint"/>
+                        <mxPoint x="550" y="620" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="520"/>
+                            <mxPoint x="140" y="520"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6" target="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="670" as="sourcePoint"/>
+                        <mxPoint x="380" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Select a random sentence&lt;div&gt;pair for translation analysis&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="33" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0615" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;html=1;exitX=0.181;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="29" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="670" as="sourcePoint"/>
+                        <mxPoint x="460" y="546" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="459" y="520"/>
+                            <mxPoint x="430" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="If iterative BT improves&lt;br&gt;score or first round of BT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="35" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2387" y="3" relative="1" as="geometry">
+                        <mxPoint x="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
