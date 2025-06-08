@@ -1,4 +1,4 @@
-from src.prompts.direct_prompts import DirectPrompts
+from src.agents.prompts.direct_prompts import DirectPrompts
 
 
 class AgentPrompts:

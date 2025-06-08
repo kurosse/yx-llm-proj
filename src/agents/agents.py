@@ -1,6 +1,6 @@
 from pydantic_ai import Agent
 
-from src.prompts.agent_prompts import AgentPrompts
+from src.agents.prompts.agent_prompts import AgentPrompts
 from src.utils.models import ModelSelector
 
 

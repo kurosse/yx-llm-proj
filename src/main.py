@@ -6,11 +6,11 @@ from pydantic_ai.settings import ModelSettings
 from loguru import logger
 from rich import print
 
-from src.utils.agents import fluency_agent, cultural_agent
 from src.utils.models import ModelSelector
-from src.utils.response_types import OverallResponseType
 from src.utils.data_parser import parse_json
-from src.prompts.agent_prompts import AgentPrompts
+from src.agents.agents import fluency_agent, cultural_agent
+from src.agents.prompts.agent_prompts import AgentPrompts
+from src.agents.response_types import OverallResponseType
 
 load_dotenv()
 
