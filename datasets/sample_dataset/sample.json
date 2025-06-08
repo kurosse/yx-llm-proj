@@ -1,0 +1,20 @@
+[
+    {
+        "src_text": "今天是新年初九，我们将向玉皇大帝祈福。",
+        "src_lang": "zh",
+        "translations": {
+            "translation_1": "Today is the beginning of the new year, and we will be blessing the emperor.",
+            "translation_2": "Today is the ninth day of the New Year, and we will pray to the Jade Emperor.",
+            "translation_3": "Today is the ninth day of the Lunar New Year, and we will pray to the Jade Emperor."
+        }
+    },
+    {
+        "src_text": "anak2 sedang bermain di taman",
+        "src_lang": "ms",
+        "translations": {
+            "translation_1": "Kids are playing in the garden",
+            "translation_2": "Children are playing in the park",
+            "translation_3": "Kids are playing in the park"
+        }
+    }
+]

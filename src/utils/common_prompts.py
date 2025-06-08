@@ -1,1 +1,0 @@
-RATING_PROMPT = "Based on your task, give a rating from 1 to 5"
