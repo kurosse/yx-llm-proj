@@ -1,0 +1,7 @@
+default_model: &default_model deepseek-chat
+
+orchestrator_agent:
+    model: *default_model
+
+fluency_agent: 
+    model: *default_model

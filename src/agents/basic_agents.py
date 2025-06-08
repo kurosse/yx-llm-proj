@@ -9,21 +9,16 @@ from pydantic_ai.models.openai import OpenAIModel
 from dotenv import load_dotenv
 
 from src.utils.common_prompts import RATING_PROMPT
+from src.utils.models import ModelSelector
 
 load_dotenv()
 
-model = OpenAIModel("deepseek-chat", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY")))
+# model = OpenAIModel("deepseek-chat", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY")))
 
-fluency_prompt = f"You check the English translation for fluency. {RATING_PROMPT}"
-grammar_prompt = f"You check the English translation for grammar. {RATING_PROMPT}"
-spelling_prompt = f"You check the English translation for spelling. {RATING_PROMPT}"
+fluency_prompt = f"You check the English translation for fluency in Standard English. Naturally, you also care about the grammar and spelling of each words.  {RATING_PROMPT}"
 
 # main_agent = Agent(model=model, model_settings=settings)
 
-# fluency_agent = Agent(OpenAIModel("gpt-4o-mini"), system_prompt=fluency_prompt)
-# grammar_agent = Agent(OpenAIModel("gpt-4o-mini"), system_prompt=grammar_prompt)
-# spelling_agent = Agent(OpenAIModel("gpt-4o-mini"), system_prompt=spelling_prompt)
-
-fluency_agent = Agent(OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY"))), system_prompt=fluency_prompt)
-grammar_agent = Agent(OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY"))), system_prompt=grammar_prompt)
-spelling_agent = Agent(OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY"))), system_prompt=spelling_prompt)
+fluency_agent = Agent(ModelSelector().get_model("deepseek_chat"), system_prompt=fluency_prompt)
+# grammar_agent = Agent(OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY"))), system_prompt=grammar_prompt)
+# spelling_agent = Agent(OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY"))), system_prompt=spelling_prompt)

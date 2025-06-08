@@ -16,7 +16,7 @@ oai_agent = Agent(OpenAIModel("gpt-4o-mini"), system_prompt="Be as concises as p
 agent = oai_agent
 
 
-@agent.tool_plain  # With dependency injection, we can access the credentials manager
+@agent.tool_plain
 def get_weather_info(latitude: float, longitude: float) -> str:
     """
     Fetches weather information for the given latitude and longitude.
