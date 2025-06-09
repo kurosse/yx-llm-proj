@@ -32,16 +32,31 @@ class AgentPrompts:
     {DirectPrompts.TRANSLATION_EVAL_PROMPT}
     Evaluate the source text for cultural specific items, idioms, or phrases.
     Identify their candidate translations in English and evaluate their cultural appropriateness.
-    For the identified cultural specific items, treat them as clues that inform the cultural context of the translation.
+    For the identified cultural specific items, treat them as clues that inform the cultural context of the translation. Always search using the tavily_search_tool to find cultural context or specific cultural references.
     If a translation is missed or inappropriate despite the source text containing cultural specific items, penalize the translation. The more clues present, the heavier the penalty.
     If a translation is culturally appropriate from the clues given, score it positively. The more clues present, the higher the score.
+    When identifying the cultural specific items that have been attempted in the candidate translation, you must provide clues from the candidate text that identify why the cultural specific item has been correctly or wrongly identified.
 
     As an example: 
     今天是新年初九,我们将向玉皇大帝祈福。contains 2 clues that it is a Lunar New Year celebration: "新年初九" (the ninth day of the Lunar New Year) and "玉皇大帝" (the Jade Emperor, a significant figure in Chinese mythology).
-    If the translation simply contains "New Year" without realizing it is the Lunar New Year, it is not culturally appropriate.
     
-    Tools available in the future:
-    - delegate_to_web_search(query: str)
+    Good translation: "Today is the ninth day of the Lunar New Year, and we will pray to the Jade Emperor."
+    - item_from_candidate_translation: "Lunar New Year"
+    - clue:
+        - phrase_or_word: "ninth day"
+        - explanation: "Lunar New Year has up to 15 days, while the western New Year is only one day."
+        - identified_correctly: True
+
+    Bad translation: "Today is the beginning of the new year, and we will be blessing the emperor."
+    - item_from_candidate_translation: "New Year"
+    - clue:
+        - phrase_or_word: "New Year"
+        - explanation: "The translation does not specify that it is the Lunar New Year, which is culturally significant in this context."
+        - identified_correctly: False
+    
+    
+    Tools available
+    - tavily_search_tool(query: str) - Use this tool to search for cultural context or specific cultural references if needed.
 
     {DirectPrompts.RATING_PROMPT}
     {DirectPrompts.REASONING_CUT_PROMPT}
