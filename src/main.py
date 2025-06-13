@@ -1,7 +1,6 @@
-import json
 from dotenv import load_dotenv
-
 load_dotenv()
+import json
 
 from pydantic_ai import Agent
 from pydantic_ai.settings import ModelSettings
