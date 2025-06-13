@@ -12,4 +12,4 @@ ALT-Bench is a workflow for evaluating machine translations, which apart from si
 2. `python -m src.main`
 
 ## Generating translation data
-1. `python -m datasets.scripts.generate_translations``
+1. `python -m datasets.scripts.generate_translations`
