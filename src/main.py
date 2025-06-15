@@ -1,7 +1,8 @@
-from dotenv import load_dotenv
-load_dotenv()
 import json
 
+from dotenv import load_dotenv
+
+load_dotenv()
 from pydantic_ai import Agent
 from pydantic_ai.settings import ModelSettings
 from loguru import logger
@@ -13,9 +14,13 @@ from src.agents.agents import fluency_agent, cultural_agent
 from src.agents.prompts.agent_prompts import AgentPrompts
 from src.agents.response_types import OverallResponseType
 
+# Constants
+RATINGS_FILE = "ratings.json"
+DATASET_PATH = "datasets/flores200_dataset/flores_sample_translations.json"
+
 # Initialize some variables
 message_history = []
-translation_data = parse_json("datasets/sample_dataset/sample.json")
+translation_data = parse_json(DATASET_PATH)
 
 # Initialize the main agent with OpenAIModel + provider; attach the system prompt.
 model = ModelSelector().get_model("deepseek_chat")
@@ -31,8 +36,8 @@ async def delegate_to_fluency_agent(expression: str) -> str:
     Returns: a string rating or an error note.
     """
     logger.info(f"Delegating to fluency agent for expression: {expression}")
-    result = await fluency_agent.run(f"Rate the fluency of this expression: {expression}", message_history=message_history)
-    return result.output
+    fluency_result = await fluency_agent.run(f"Rate the fluency of this expression: {expression}", message_history=message_history)
+    return fluency_result.output
 
 
 @main_agent.tool_plain
@@ -42,36 +47,43 @@ async def delegate_to_cultural_agent(source_expression: str, candidate_expressio
     Returns: a string rating or an error note.
     """
     logger.info(f"Delegating to cultural agent for expression pair: {source_expression}, {candidate_expression}")
-    result = await cultural_agent.run(
+    cultural_result = await cultural_agent.run(
         f"Rate the cultural appropriateness of this pair: {source_expression}, {candidate_expression}", message_history=message_history
     )
-    return result.output
+    return cultural_result.output
 
 
-with open("translations.json", "w", encoding="utf-8") as f:
+with open(RATINGS_FILE, "w", encoding="utf-8") as f:
     json.dump([], f, ensure_ascii=False, indent=2)
 
-for translation_data_item in translation_data:
-    src_text = translation_data_item["src_text"]
-    translations = translation_data_item["translations"]
+for original_sentence, translation_contents in translation_data.items():
+    for language_code, translations in translation_contents.items():
 
-    # Prompt
-    prompt = "src_text: " + src_text
-    for translation_id, translation_text in translations.items():
-        prompt += f"\n{translation_id}: {translation_text}"
-    prompt += "\n\nPlease evaluate the fluency of the translations."
+        src_text = translations["original"]
+        translations = {
+            "candidate_1": translations["goog_back_translation"],
+            "candidate_2": translations["nllb_back_translation"],
+            "candidate_3": translations["llm_back_translation"],
+        }
 
-    # Call the orchestrator agent
-    result = main_agent.run_sync(prompt, message_history=message_history)
-    message_history = result.all_messages()
-    print(f"\n{result.output}\n")
+        # src_text = translation_data_item["src_text"]
+        # translations = translation_data_item["translations"]
 
-    # Append the result to translations.json
-    append_rating(result.output, path="translations.json")
+        # Prompt
+        prompt = f"src_text {language_code}: " + src_text
+        for translation_id, translation_text in translations.items():
+            prompt += f"\n{translation_id}: {translation_text}"
+        prompt += "\n\nPlease evaluate the fluency of the translations."
 
-    breakpoint()
-    # Clear the message history for the next iteration
-    message_history.clear()
+        # Call the orchestrator agent
+        result = main_agent.run_sync(prompt, message_history=message_history)
+        message_history = result.all_messages()
+
+        # Append the result to translations.json
+        append_rating(result.output, path=RATINGS_FILE)
+
+        # Clear the message history for the next iteration
+        message_history.clear()
     breakpoint()
 
 

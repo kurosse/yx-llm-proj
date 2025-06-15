@@ -1,5 +1,5 @@
-import pandas as pd
 import json
+import pandas as pd
 
 
 def parse_csv(file_path: str) -> pd.DataFrame:
@@ -39,7 +39,7 @@ def parse_json(file_path: str) -> dict:
         return {}  # Return an empty dictionary on error
 
 
-def append_rating(model_output, path="translations.json"):
+def append_rating(model_output, path="ratings.json"):
     # model_output: a Pydantic model instance
     item = model_output.dict()  # or json.loads(model_output.json())
     with open(path, "r+", encoding="utf-8") as f:

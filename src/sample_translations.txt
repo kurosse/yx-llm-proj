@@ -1,9 +1,0 @@
-Source: 今天是新年初九，我们将向玉皇大帝祈福。
-Translation 1: Today is the beginning of the new year, and we will be blessing the emperor.
-Translation 2: Today is the ninth day of the New Year, and we will pray to the Jade Emperor.
-Translation 3: Today is the ninth day of the Lunar New Year, and we will pray to the Jade Emperor.
-
-Source: anak2 sedang bermain di taman
-Translation 1: Kids are playing in the garden
-Translation 2: Children are playing in the park
-Translation 3: Children are playing in the park

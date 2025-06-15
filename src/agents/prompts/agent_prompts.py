@@ -21,6 +21,7 @@ class AgentPrompts:
     You are a grammar and spelling expert. Your task is to evaluate the fluency of the given English translation.
     {DirectPrompts.TRANSLATION_EVAL_PROMPT}
     You check the English translation for the grammar and spelling. 
+    Penalize the translation for retaining non-English characters, incorrect grammar, or spelling mistakes.
     You score the translation based on its grammar and spelling, returning separate ratings for each.
 
     {DirectPrompts.RATING_PROMPT}

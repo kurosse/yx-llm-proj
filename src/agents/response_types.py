@@ -2,12 +2,10 @@ from pydantic import BaseModel
 
 
 class FluencyAgentResponseType(BaseModel):
-    agent_name: str
     grammar_reasoning: str
     grammar_rating: float
     spelling_reasoning: str
     spelling_rating: float
-    translation_candidate: str
 
 
 ##### Cultural Agent Response Types #####
@@ -23,7 +21,6 @@ class CulturalItemAndClue(BaseModel):
 
 
 class CulturalAgentResponseType(BaseModel):
-    agent_name: str
     cultural_reasoning: str
     tavily_search: str
     cultural_items_and_clues: list[CulturalItemAndClue]
@@ -33,11 +30,13 @@ class CulturalAgentResponseType(BaseModel):
 ##### Orchestrator Response Types #####
 class CandidateSentenceEvaluation(BaseModel):
     candidate_sentence: str
+    candidate_id: str
     fluency_agent_response: FluencyAgentResponseType
     cultural_agent_response: CulturalAgentResponseType
 
 
 class OverallResponseType(BaseModel):
     source_sentence: str
+    language_code: str
     candidate_sentence_evaluations: list[CandidateSentenceEvaluation]
-    best_candidate: str
+    best_candidate_id_and_sentence: str

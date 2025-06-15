@@ -1,0 +1,757 @@
+[
+  {
+    "source_sentence": "赏樱, 亦称“花见”(hanami),从 8 世纪开始就成为了日本习俗。",
+    "language_code": "zho_hans",
+    "candidate_sentence_evaluations": [
+      {
+        "candidate_sentence": "Cherry blossom viewing, also known as 'hanami', has become a Japanese custom since the 8th century.",
+        "candidate_id": "candidate_1",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of commas, verb tense (\"has become\"), and phrasing.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including the borrowed term \"hanami.\"",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation is culturally appropriate and accurately conveys the cultural-specific items and historical context.",
+          "tavily_search": "No additional search required.",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "Cherry blossom viewing",
+              "clue": [
+                {
+                  "phrase_or_word": "Cherry blossom viewing",
+                  "explanation": "The translation accurately captures the cultural specificity of the activity by using the term \"hanami,\" which is widely recognized in English as the Japanese tradition of flower viewing."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "The inclusion of \"since the 8th century\" also correctly emphasizes the historical context."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      },
+      {
+        "candidate_sentence": "赏, also called 花见 (hanami), has become a Japanese custom since the 8th century.",
+        "candidate_id": "candidate_2",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, but the inclusion of non-English characters (\"赏\" and \"花见\") slightly disrupts the flow.",
+          "grammar_rating": 8.0,
+          "spelling_reasoning": "There are no spelling errors.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation is culturally appropriate and accurately reflects the cultural significance of the source text.",
+          "tavily_search": "No additional search required.",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "赏",
+              "clue": [
+                {
+                  "phrase_or_word": "赏",
+                  "explanation": "A significant cultural activity in Japan."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "花见 (hanami)",
+              "clue": [
+                {
+                  "phrase_or_word": "花见 (hanami)",
+                  "explanation": "The Japanese term for cherry blossom viewing, a culturally specific term deeply rooted in Japanese tradition."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      },
+      {
+        "candidate_sentence": "Cherry blossom viewing, also known as 'hanami', has been a Japanese tradition since the 8th century.",
+        "candidate_id": "candidate_3",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of punctuation, verb tense, and sentence structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including the borrowed term \"hanami.\"",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation is flawless in capturing the cultural nuances of the source text. It retains the culturally specific term \"hanami,\" provides a clear explanation, and includes the historical context.",
+          "tavily_search": "No additional search required.",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "Cherry blossom viewing",
+              "clue": [
+                {
+                  "phrase_or_word": "Cherry blossom viewing",
+                  "explanation": "Correctly translates \"赏樱\" and captures the cultural activity."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "Retains the original Japanese term, which is culturally appropriate."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      }
+    ],
+    "best_candidate_id_and_sentence": "candidate_3: Cherry blossom viewing, also known as 'hanami', has been a Japanese tradition since the 8th century."
+  },
+  {
+    "source_sentence": "お花見と呼ばれる桜の花の鑑賞は、8世紀から日本の文化の一部となっています。",
+    "language_code": "jpn_Jpan",
+    "candidate_sentence_evaluations": [
+      {
+        "candidate_sentence": "The viewing of cherry blossoms, known as cherry blossom viewing, has been part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_1",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of tenses and sentence structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, and there are no non-English characters.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation captures the essence of the tradition and its historical significance but misses the culturally specific term \"Hanami.\"",
+          "tavily_search": "N/A",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "cherry blossom viewing",
+              "clue": [
+                {
+                  "phrase_or_word": "Hanami",
+                  "explanation": "The culturally specific term for the tradition of viewing cherry blossoms."
+                }
+              ],
+              "identified_correctly": false
+            },
+            {
+              "item_from_candidate_translation": "cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "cherry blossoms",
+                  "explanation": "Symbolic in Japanese culture, representing the fleeting nature of life."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "8世紀",
+                  "explanation": "Indicates the historical depth of this tradition."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 7.0
+        }
+      },
+      {
+        "candidate_sentence": "Looking at cherry blossoms has been part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_2",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper verb tense and structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, and there are no non-English characters.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation captures the basic meaning and historical context but fails to include the culturally specific term \"Hanami.\"",
+          "tavily_search": "N/A",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "Looking at cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "Hanami",
+                  "explanation": "The culturally specific term for the tradition of viewing cherry blossoms."
+                }
+              ],
+              "identified_correctly": false
+            },
+            {
+              "item_from_candidate_translation": "cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "cherry blossoms",
+                  "explanation": "Symbolic in Japanese culture, representing the fleeting nature of life."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "8世紀",
+                  "explanation": "Indicates the historical depth of this tradition."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 6.0
+        }
+      },
+      {
+        "candidate_sentence": "The appreciation of cherry blossoms, known as 'hanami,' has been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_3",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of punctuation, verb tense, and clause structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including the borrowed term 'hanami.'",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation is culturally appropriate, accurately identifies and retains the culturally specific term \"hanami,\" and provides sufficient context for understanding its significance in Japanese culture.",
+          "tavily_search": "N/A",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "Hanami",
+                  "explanation": "The culturally specific term for the tradition of viewing cherry blossoms."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "cherry blossoms",
+                  "explanation": "Symbolic in Japanese culture, representing the fleeting nature of life."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "8世紀",
+                  "explanation": "Indicates the historical depth of this tradition."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      }
+    ],
+    "best_candidate_id_and_sentence": "candidate_3: The appreciation of cherry blossoms, known as 'hanami,' has been a part of Japanese culture since the 8th century."
+  },
+  {
+    "source_sentence": "Hoạt động ngắm hoa anh đào nở, gọi là hanami, đã là một phần của văn hóa Nhật Bản từ thế kỷ thứ 8.",
+    "language_code": "vie_Latn",
+    "candidate_sentence_evaluations": [
+      {
+        "candidate_sentence": "Activities of watching cherry blossoms, called Hanami, has been part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_1",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct but could be slightly improved for fluency. 'Activities of watching cherry blossoms' is understandable but could be more natural as 'The activity of watching cherry blossoms' or 'Cherry blossom viewing (Hanami).' The verb 'has been' agrees with the singular subject 'activity,' but the phrasing could be smoother.",
+          "grammar_rating": 9.0,
+          "spelling_reasoning": "There are no spelling errors.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "",
+          "tavily_search": "",
+          "cultural_items_and_clues": [],
+          "cultural_rating": 0.0
+        }
+      },
+      {
+        "candidate_sentence": "The activity of watching cherry blossoms bloom, called hanami, has been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_2",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of tenses, punctuation, and clause structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including the borrowed term 'hanami.'",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "",
+          "tavily_search": "",
+          "cultural_items_and_clues": [],
+          "cultural_rating": 0.0
+        }
+      },
+      {
+        "candidate_sentence": "The activity of viewing cherry blossoms in bloom, called hanami, has been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_3",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of tenses, punctuation, and sentence structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including 'hanami,' which is appropriately italicized or left as is (depending on style conventions).",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "",
+          "tavily_search": "",
+          "cultural_items_and_clues": [],
+          "cultural_rating": 0.0
+        }
+      }
+    ],
+    "best_candidate_id_and_sentence": "candidate_2: The activity of watching cherry blossoms bloom, called hanami, has been a part of Japanese culture since the 8th century."
+  },
+  {
+    "source_sentence": "Melihat bunga sakura, yang dikenal sebagai hanami, telah menjadi bagian dari budaya Jepang sejak abad ke-8.",
+    "language_code": "ind_Latn",
+    "candidate_sentence_evaluations": [
+      {
+        "candidate_sentence": "Seeing cherry blossoms, known as Hanami, has been part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_1",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper verb tense (\"has been\") and clear structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including \"Hanami,\" which is appropriately capitalized as a borrowed cultural term.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation perfectly captures the cultural nuances of the source text, including the specific term \"Hanami\" and the historical context. It is both accurate and respectful of the cultural significance. No improvements are needed.",
+          "tavily_search": "",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "cherry blossoms",
+                  "explanation": "A culturally specific item representing spring and beauty in Japan."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "Hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "Hanami",
+                  "explanation": "A Japanese term for the tradition of viewing cherry blossoms, deeply rooted in Japanese culture."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "part of Japanese culture since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "part of Japanese culture since the 8th century",
+                  "explanation": "Highlights the historical and cultural significance of the tradition."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      },
+      {
+        "candidate_sentence": "Seeing sakura flowers, known as hanami, has been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_2",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper subject-verb agreement and tense usage (\"has been\").",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including \"sakura\" (a borrowed Japanese term) and \"hanami.\"",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation is culturally precise, retaining key terms like \"sakura\" and \"hanami\" and accurately conveying the historical context. It fully respects the cultural significance of the source text.",
+          "tavily_search": "",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "sakura flowers",
+              "clue": [
+                {
+                  "phrase_or_word": "sakura flowers",
+                  "explanation": "Refers to cherry blossoms, which are iconic in Japanese culture."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "A Japanese term for the tradition of flower viewing, specifically cherry blossoms."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "part of Japanese culture since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "part of Japanese culture since the 8th century",
+                  "explanation": "Highlights the historical and cultural depth of the tradition."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      },
+      {
+        "candidate_sentence": "Viewing cherry blossoms, known as hanami, has been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_3",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of tenses, punctuation, and sentence structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, and there are no non-English characters retained inappropriately.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation perfectly captures the cultural essence of the source text, including the specific terms and their significance. No cultural nuances are lost, and the translation is both accurate and informative.",
+          "tavily_search": "",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "cherry blossoms",
+                  "explanation": "A culturally significant symbol in Japan, representing beauty and the transient nature of life."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "A traditional Japanese custom of enjoying the beauty of cherry blossoms, often involving picnics under the trees."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      }
+    ],
+    "best_candidate_id_and_sentence": "All candidates are equally fluent and culturally appropriate. The best choice depends on stylistic preference: \"candidate_1\" for capitalization of \"Hanami,\" \"candidate_2\" for retaining \"sakura,\" or \"candidate_3\" for the verb \"viewing.\""
+  },
+  {
+    "source_sentence": "Ang pagmalas sa mga cherry blossom, na kilala bilang hanami, ay naging bahagi na ng kulturang Hapones simula pa noong ika-8 siglo.",
+    "language_code": "tgl_Latn",
+    "candidate_sentence_evaluations": [
+      {
+        "candidate_sentence": "The cherry blossoms, known as Hanami, have been part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_1",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper subject-verb agreement, punctuation, and structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including \"Hanami,\" which is appropriately capitalized as a proper noun.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation is culturally appropriate and accurately conveys all the cultural-specific items from the source text. The retention of \"Hanami\" and the historical context demonstrates a deep understanding of the cultural significance.",
+          "tavily_search": "N/A",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "cherry blossoms",
+                  "explanation": "The specificity of \"cherry blossoms\" aligns with the cultural importance of sakura in Japan."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "Hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "Hanami",
+                  "explanation": "\"Hanami\" is a culturally specific term, and its retention is appropriate."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "since the 8th century",
+                  "explanation": "The translation maintains the historical depth of the tradition."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      },
+      {
+        "candidate_sentence": "Cherry blossoms, known as hanami, have been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_2",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of commas, verb tense (\"have been\"), and phrasing.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "All words are spelled correctly, including \"hanami,\" which is appropriately italicized or retained as a borrowed term.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation is culturally appropriate and accurately reflects the cultural and historical significance of the source text. All cultural specific items are correctly identified and retained.",
+          "tavily_search": "N/A",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "Cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "Cherry blossoms",
+                  "explanation": "The translation retains \"cherry blossoms,\" which is culturally appropriate."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "The translation includes \"hanami,\" correctly identifying the cultural term."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "since the 8th century",
+                  "explanation": "The translation accurately reflects the historical context."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      },
+      {
+        "candidate_sentence": "The viewing of cherry blossoms, known as hanami, has been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_3",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically perfect. It uses correct verb tenses, subject-verb agreement, and proper punctuation. The phrase \"known as hanami\" is appropriately set off by commas, and the sentence structure is clear and coherent.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "There are no spelling errors in the sentence. All words, including \"cherry blossoms,\" \"hanami,\" and \"Japanese,\" are correctly spelled.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation perfectly captures the cultural nuances of the source text, including the specific terms and historical context. It is both accurate and respectful of the cultural significance of \"hanami\" and cherry blossoms in Japanese culture. No improvements are needed.",
+          "tavily_search": "N/A",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "cherry blossoms",
+                  "explanation": "The phrase \"cherry blossoms\" is widely recognized as a symbol of Japanese culture."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "The term \"hanami\" is italicized or retained in many English translations to preserve its cultural specificity."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "since the 8th century",
+                  "explanation": "The phrase emphasizes the long-standing tradition, which is culturally significant."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      }
+    ],
+    "best_candidate_id_and_sentence": "All candidates are equally fluent and culturally appropriate. The best choice may depend on stylistic preference."
+  },
+  {
+    "source_sentence": "การชมดอกซากุระหรือที่เรียกกันว่าฮานามิ เป็นส่วนหนึ่งของวัฒนธรรมญี่ปุ่นมาตั้งแต่ศตวรรษที่ 8",
+    "language_code": "tha_Thai",
+    "candidate_sentence_evaluations": [
+      {
+        "candidate_sentence": "Watching cherry blossoms, also known as Hanami Is part of Japanese culture since the 8th century",
+        "candidate_id": "candidate_1",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence has a minor error in punctuation (\"Hanami Is\" should be \"Hanami is\") and lacks a comma after \"Hanami\" for clarity. The phrase \"since the 8th century\" is grammatically correct but could be smoother with a preceding comma.",
+          "grammar_rating": 7.0,
+          "spelling_reasoning": "There are no spelling mistakes in the translation.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation successfully conveys the cultural specificity and historical depth of the practice. The use of \"Hanami\" and the description of cherry blossom viewing are culturally accurate.",
+          "tavily_search": "No additional search required.",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "Hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "Hanami",
+                  "explanation": "The term \"Hanami\" is retained in the translation, which is the correct and culturally appropriate term for the practice."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "watching cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "watching cherry blossoms",
+                  "explanation": "This accurately describes the activity of Hanami, which is central to Japanese culture."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "part of Japanese culture since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "part of Japanese culture since the 8th century",
+                  "explanation": "The historical context is preserved, emphasizing the cultural significance of Hanami."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      },
+      {
+        "candidate_sentence": "Sakarya, also known as hanami, has been a part of Japanese culture since the eighth century.",
+        "candidate_id": "candidate_2",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct with proper use of tenses and sentence structure. The phrase \"has been a part of Japanese culture since the eighth century\" is well-formed.",
+          "grammar_rating": 9.0,
+          "spelling_reasoning": "There are no spelling errors in the sentence.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation correctly identifies \"hanami\" and the cultural context but fails with the term \"Sakarya,\" which is a significant error. The misrepresentation of \"sakura\" as \"Sakarya\" detracts from the cultural appropriateness.",
+          "tavily_search": "No additional search required.",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "Sakarya",
+              "clue": [
+                {
+                  "phrase_or_word": "Sakarya",
+                  "explanation": "This is incorrect. The correct term should be \"cherry blossoms\" or \"sakura\" (the Japanese word for cherry blossoms). \"Sakarya\" is not a recognized term in this context."
+                }
+              ],
+              "identified_correctly": false
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "The term \"hanami\" is correctly retained in the translation, which is appropriate."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "a part of Japanese culture since the eighth century",
+              "clue": [
+                {
+                  "phrase_or_word": "a part of Japanese culture since the eighth century",
+                  "explanation": "The translation correctly identifies the tradition as part of Japanese culture and provides the historical context."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 5.0
+        }
+      },
+      {
+        "candidate_sentence": "Viewing cherry blossoms, or what is called 'hanami', has been a part of Japanese culture since the 8th century.",
+        "candidate_id": "candidate_3",
+        "fluency_agent_response": {
+          "grammar_reasoning": "The sentence is grammatically correct, with proper use of punctuation, verb tense, and sentence structure.",
+          "grammar_rating": 10.0,
+          "spelling_reasoning": "There are no spelling errors in the sentence.",
+          "spelling_rating": 10.0
+        },
+        "cultural_agent_response": {
+          "cultural_reasoning": "The translation perfectly captures the cultural and historical context of the source text. The use of \"hanami\" and the clear reference to Japanese culture and history demonstrate a deep understanding of the cultural significance.",
+          "tavily_search": "No additional search required.",
+          "cultural_items_and_clues": [
+            {
+              "item_from_candidate_translation": "Viewing cherry blossoms",
+              "clue": [
+                {
+                  "phrase_or_word": "Viewing cherry blossoms",
+                  "explanation": "\"cherry blossoms\" is directly translated and retains its cultural significance."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "hanami",
+              "clue": [
+                {
+                  "phrase_or_word": "hanami",
+                  "explanation": "The term \"hanami\" is preserved in italics, indicating its cultural specificity."
+                }
+              ],
+              "identified_correctly": true
+            },
+            {
+              "item_from_candidate_translation": "Japanese culture since the 8th century",
+              "clue": [
+                {
+                  "phrase_or_word": "Japanese culture since the 8th century",
+                  "explanation": "The historical context is accurately translated."
+                }
+              ],
+              "identified_correctly": true
+            }
+          ],
+          "cultural_rating": 10.0
+        }
+      }
+    ],
+    "best_candidate_id_and_sentence": "candidate_3: Viewing cherry blossoms, or what is called 'hanami', has been a part of Japanese culture since the 8th century."
+  }
+]
