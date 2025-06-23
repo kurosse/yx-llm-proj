@@ -1,30 +1,28 @@
 from pydantic import BaseModel
 
 
+##### Fluency Agent Response Types #####
 class FluencyAgentResponseType(BaseModel):
     grammar_reasoning: str
-    grammar_rating: float
+    grammar_rating: int
     spelling_reasoning: str
-    spelling_rating: float
+    spelling_rating: int
 
 
 ##### Cultural Agent Response Types #####
-class CulturalClue(BaseModel):
-    phrase_or_word: str
-    explanation: str
-
-
-class CulturalItemAndClue(BaseModel):
-    item_from_candidate_translation: str
-    clue: list[CulturalClue]
-    identified_correctly: bool
+class CulturallySignficantTermAndClues(BaseModel):
+    item_from_candidate: str
+    item_from_source: str
+    surrounding_clues_from_source: list[str]
+    surrounding_clues_from_candidate: list[str]
+    reasoning_with_tavily_search: str
+    translated_correctly: bool
 
 
 class CulturalAgentResponseType(BaseModel):
     cultural_reasoning: str
-    tavily_search: str
-    cultural_items_and_clues: list[CulturalItemAndClue]
-    cultural_rating: float
+    cultural_items_and_clues: list[CulturallySignficantTermAndClues]
+    cultural_accuracy_rating: int
 
 
 ##### Orchestrator Response Types #####

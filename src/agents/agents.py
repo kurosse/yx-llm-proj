@@ -4,11 +4,12 @@ from pydantic_ai import Agent
 from pydantic_ai.common_tools.tavily import tavily_search_tool
 
 from src.agents.prompts.agent_prompts import AgentPrompts
-from src.utils.models import ModelSelector
+from src.utils.models import ModelSelector, MODEL_SETTINGS
 
-fluency_agent = Agent(ModelSelector().get_model("deepseek_chat"), system_prompt=AgentPrompts.FLUENCY_AGENT_PROMPT)
+fluency_agent = Agent(ModelSelector().get_model("deepseek_chat"), model_settings=MODEL_SETTINGS, system_prompt=AgentPrompts.FLUENCY_AGENT_PROMPT)
 cultural_agent = Agent(
     ModelSelector().get_model("deepseek_chat"),
+    model_settings=MODEL_SETTINGS,
     system_prompt=AgentPrompts.CULTURAL_AGENT_PROMPT,
     tools=[tavily_search_tool(os.getenv("TAVILY_API_KEY"))],
 )

@@ -4,11 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 from pydantic_ai import Agent
-from pydantic_ai.settings import ModelSettings
 from loguru import logger
 from rich import print
 
-from src.utils.models import ModelSelector
+from src.utils.models import ModelSelector, MODEL_SETTINGS
 from src.utils.data_parser import parse_json, append_rating
 from src.agents.agents import fluency_agent, cultural_agent
 from src.agents.prompts.agent_prompts import AgentPrompts
@@ -24,7 +23,7 @@ translation_data = parse_json(DATASET_PATH)
 
 # Initialize the main agent with OpenAIModel + provider; attach the system prompt.
 model = ModelSelector().get_model("deepseek_chat")
-settings = ModelSettings(temperature=1.3)
+settings = MODEL_SETTINGS
 main_agent = Agent(model=model, model_settings=settings, system_prompt=AgentPrompts.MAIN_AGENT_PROMPT, output_type=OverallResponseType)
 
 
@@ -84,6 +83,7 @@ for original_sentence, translation_contents in translation_data.items():
 
         # Clear the message history for the next iteration
         message_history.clear()
+        breakpoint()
     breakpoint()
 
 

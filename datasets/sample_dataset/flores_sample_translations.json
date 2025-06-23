@@ -1,0 +1,572 @@
+{
+  "Cherry blossom viewing, known as hanami, has been a part of Japanese culture since the 8th century.": {
+    "zho_hans": {
+      "original": "赏樱, 亦称“花见”(hanami),从 8 世纪开始就成为了日本习俗。",
+      "goog_back_translation": "Cherry blossom viewing, also known as 'hanami', has become a Japanese custom since the 8th century.",
+      "nllb_back_translation": "赏, also called 花见 (hanami), has become a Japanese custom since the 8th century.",
+      "llm_back_translation": "Cherry blossom viewing, also known as 'hanami', has been a Japanese tradition since the 8th century."
+    },
+    "jpn_Jpan": {
+      "original": "お花見と呼ばれる桜の花の鑑賞は、8世紀から日本の文化の一部となっています。",
+      "goog_back_translation": "The viewing of cherry blossoms, known as cherry blossom viewing, has been part of Japanese culture since the 8th century.",
+      "nllb_back_translation": "Looking at cherry blossoms has been part of Japanese culture since the 8th century.",
+      "llm_back_translation": "The appreciation of cherry blossoms, known as 'hanami,' has been a part of Japanese culture since the 8th century."
+    },
+    "vie_Latn": {
+      "original": "Hoạt động ngắm hoa anh đào nở, gọi là hanami, đã là một phần của văn hóa Nhật Bản từ thế kỷ thứ 8.",
+      "goog_back_translation": "Activities of watching cherry blossoms, called Hanami, has been part of Japanese culture since the 8th century.",
+      "nllb_back_translation": "The activity of watching cherry blossoms bloom, called hanami, has been a part of Japanese culture since the 8th century.",
+      "llm_back_translation": "The activity of viewing cherry blossoms in bloom, called hanami, has been a part of Japanese culture since the 8th century."
+    },
+    "ind_Latn": {
+      "original": "Melihat bunga sakura, yang dikenal sebagai hanami, telah menjadi bagian dari budaya Jepang sejak abad ke-8.",
+      "goog_back_translation": "Seeing cherry blossoms, known as Hanami, has been part of Japanese culture since the 8th century.",
+      "nllb_back_translation": "Seeing sakura flowers, known as hanami, has been a part of Japanese culture since the 8th century.",
+      "llm_back_translation": "Viewing cherry blossoms, known as hanami, has been a part of Japanese culture since the 8th century."
+    },
+    "tgl_Latn": {
+      "original": "Ang pagmalas sa mga cherry blossom, na kilala bilang hanami, ay naging bahagi na ng kulturang Hapones simula pa noong ika-8 siglo.",
+      "goog_back_translation": "The cherry blossoms, known as Hanami, have been part of Japanese culture since the 8th century.",
+      "nllb_back_translation": "Cherry blossoms, known as hanami, have been a part of Japanese culture since the 8th century.",
+      "llm_back_translation": "The viewing of cherry blossoms, known as hanami, has been a part of Japanese culture since the 8th century."
+    },
+    "tha_Thai": {
+      "original": "การชมดอกซากุระหรือที่เรียกกันว่าฮานามิ เป็นส่วนหนึ่งของวัฒนธรรมญี่ปุ่นมาตั้งแต่ศตวรรษที่ 8",
+      "goog_back_translation": "Watching cherry blossoms, also known as Hanami Is part of Japanese culture since the 8th century",
+      "nllb_back_translation": "Sakarya, also known as hanami, has been a part of Japanese culture since the eighth century.",
+      "llm_back_translation": "Viewing cherry blossoms, or what is called 'hanami', has been a part of Japanese culture since the 8th century."
+    }
+  },
+  "The Tibetan Buddhism is based on the teachings of Buddha, but were extended by the mahayana path of love and by a lot of techniques from Indian Yoga.": {
+    "zho_hans": {
+      "original": "藏传佛教以佛陀的教义为基础，但通过大乘佛教的普世之爱和印度瑜伽的许多技巧得到了拓展。",
+      "goog_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but is expanded through the universal love of Mahayana Buddhism and many techniques of Indian yoga.",
+      "nllb_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but has been expanded through Buddhism's universal love and many Hindu techniques.",
+      "llm_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but it has been expanded through the universal love of Mahayana Buddhism and many techniques of Indian yoga."
+    },
+    "jpn_Jpan": {
+      "original": "チベット仏教はブッダの教えに基づく信仰ですが、大乗仏教の慈悲やインドのヨガから多くの技術を取り入れて拡張されています。",
+      "goog_back_translation": "Tibetan Buddhism is a faith based on the teachings of the Buddha, but it has been extended by incorporating many techniques from Mahayana Buddhism's mercy and Indian yoga.",
+      "nllb_back_translation": "Tibetan Buddhism is a belief based on Buddha's teachings, but it has been expanded to incorporate many techniques from Buddhist compassion and Indian yoga.",
+      "llm_back_translation": "Tibetan Buddhism is a faith based on the teachings of the Buddha, but it has expanded by incorporating many techniques from the compassion of Mahayana Buddhism and the practices of Indian yoga."
+    },
+    "vie_Latn": {
+      "original": "Phật Giáo Tây Tạng dựa trên những lời dạy của Đức Phật, nhưng được mở rộng bằng con đường từ bi của Phật Giáo đại thừa và rất nhiều kỹ thuật Yoga Ấn Độ.",
+      "goog_back_translation": "Tibetan Buddhism is based on Buddha's teachings, but is expanded by the compassionate path of Mahayana Buddhism and many Indian yoga techniques.",
+      "nllb_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but is extended by the compassionate path of supernatural Buddhism and many Indian Yoga techniques.",
+      "llm_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but it is expanded through the path of compassion in Mahayana Buddhism and many Indian Yoga techniques."
+    },
+    "ind_Latn": {
+      "original": "Buddhisme Tibet memakai landasan ajaran Buddha, tetapi kemudian memperluasnya dengan tumpuan kasih mahayana dan dengan banyak teknik dari Yoga India.",
+      "goog_back_translation": "Tibetan Buddhism uses the basis of Buddhist teachings, but then expands it with the pedestal of Mahayana's love and with many techniques from Indian yoga.",
+      "nllb_back_translation": "Tibetan Buddhism used the foundation of Buddhist teachings, but later expanded it with a focus on Mahayana love and with many techniques from Indian Yoga.",
+      "llm_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but then expands them with the emphasis on Mahayana compassion and with many techniques from Indian Yoga."
+    },
+    "tgl_Latn": {
+      "original": "Nakabase ang Tibetan Buddhism sa mga aral ng Buddha, subalit pinalawig ng landas ng pagmamahal ng mahayana at sa napakaraming teknik na galing sa Indian Yoga.",
+      "goog_back_translation": "Tibetan Buddhism is based on Buddha's teachings, but extends the path of Mahayana's love and so many techniques from Indian Yoga.",
+      "nllb_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but the path of love for the mahayana and the many techniques derived from Indian Yoga is broadened.",
+      "llm_back_translation": "Tibetan Buddhism is based on the teachings of the Buddha, but it is expanded by the path of love in Mahayana and the numerous techniques derived from Indian Yoga."
+    },
+    "tha_Thai": {
+      "original": "พุทธศาสนาในทิเบตมีรากฐานมาจากคำสอนของพระพุทธเจ้า แต่ได้มีการเพิ่มแนวทางของมหายานและเทคนิคจำนวนมากของโยคะจากอินเดียเข้าไป",
+      "goog_back_translation": "Buddhism in Tibet is based on the teachings of the Lord Buddha. But has added a lot of ways of Mahayana and the techniques of yoga from India",
+      "nllb_back_translation": "Buddhism in Tibet is rooted in the Buddha's teachings, but there have been many additions to the teachings and techniques of yoga from India.",
+      "llm_back_translation": "Buddhism in Tibet is rooted in the teachings of the Buddha, but it has incorporated many Mahayana paths and yoga techniques from India."
+    }
+  },
+  "The concept came from China where plum blossoms were the flower of choice.": {
+    "zho_hans": {
+      "original": "这一概念来自中国，梅花是中国人喜闻乐见的一种花卉。",
+      "goog_back_translation": "This concept comes from China, and plum blossoms are a kind of flower that Chinese people like.",
+      "nllb_back_translation": "This concept comes from China, where the meflower is a flower of Chinese heritage.",
+      "llm_back_translation": "This concept originates from China, where the plum blossom is a flower beloved by the Chinese people."
+    },
+    "jpn_Jpan": {
+      "original": "そのコンセプトは、梅の花を好む中国から来ています。",
+      "goog_back_translation": "The concept comes from China, which prefers plum blossoms.",
+      "nllb_back_translation": "The concept comes from China, which likes feather flowers.",
+      "llm_back_translation": "The concept comes from China, where the plum blossom is favored."
+    },
+    "vie_Latn": {
+      "original": "Khái niệm này bắt nguồn từ Trung Quốc nơi hoa mận là loài hoa được ưa thích.",
+      "goog_back_translation": "This concept originates from China where plum blossoms are favorite flowers.",
+      "nllb_back_translation": "The concept originated in China, where flowers are the preferred flower.",
+      "llm_back_translation": "This concept originates from China, where the plum blossom is a favored flower."
+    },
+    "ind_Latn": {
+      "original": "Konsep tersebut berasal dari China, di mana bunga plum merupakan bunga pilihan.",
+      "goog_back_translation": "The concept originated from China, where plum flowers are chosen flowers.",
+      "nllb_back_translation": "The concept originated in China, where plums were the flower of choice.",
+      "llm_back_translation": "The concept originated from China, where the plum blossom is the flower of choice."
+    },
+    "tgl_Latn": {
+      "original": "Nagbuhat sa Tsina ang ideya kung saan ang mga plum blossom ang napiling bulaklak.",
+      "goog_back_translation": "China came up with the idea of which plum blossoms were selected flowers.",
+      "nllb_back_translation": "The idea of picking plum blossoms originated in China.",
+      "llm_back_translation": "The idea originated in China where plum blossoms were chosen as the flower."
+    },
+    "tha_Thai": {
+      "original": "แนวคิดนี้มาจากประเทศจีน ซึ่งเป็นประเทศที่ดอกบ๊วยได้รับความนิยม",
+      "goog_back_translation": "This idea comes from China. Which is a country where the blossoms are popular",
+      "nllb_back_translation": "This idea comes from China, where the rose is very popular.",
+      "llm_back_translation": "This concept originates from China, a country where plum blossoms are highly popular."
+    }
+  },
+  "In Japan, the first cherry blossom parties were hosted by the emperor only for himself and other members of the aristocracy around the Imperial Court.": {
+    "zho_hans": {
+      "original": "在日本，最早的樱花派对是由天皇为他自己和皇室其他贵族成员在皇家御所举办的。",
+      "goog_back_translation": "In Japan, the earliest cherry blossom parties were held by the Emperor for himself and other members of the royal family at the Royal Imperial House.",
+      "nllb_back_translation": "In Japan, the earliest flower parties were held by the emperor for himself and other members of the royal nobility.",
+      "llm_back_translation": "In Japan, the earliest cherry blossom parties were hosted by the emperor for himself and other members of the imperial nobility at the imperial palace."
+    },
+    "jpn_Jpan": {
+      "original": "日本で最初に開かれた花見は、天皇が自らと朝廷周辺に住まう貴族のためだけに主催したものでした。",
+      "goog_back_translation": "The first cherry blossom viewing event in Japan was organized by the Emperor only for himself and the nobles living around the imperial court.",
+      "nllb_back_translation": "The first flower show in Japan was organized exclusively by the emperor for himself and the nobility living around the court.",
+      "llm_back_translation": "The first cherry blossom viewing held in Japan was hosted by the emperor exclusively for himself and the nobles living around the imperial court."
+    },
+    "vie_Latn": {
+      "original": "Ở Nhật, những bữa tiệc ngắm hoa anh đào đầu tiên được Hoàng đế tổ chức riêng cho mình và những thành viên quý tộc quanh khu vực Triều đình.",
+      "goog_back_translation": "In Japan, the first cherry blossom sightseeing parties was organized by the Emperor and the aristocratic members around the court area.",
+      "nllb_back_translation": "In Japan, the first cherry blossoms were celebrated by the emperor for himself and members of the nobility around the Imperial area.",
+      "llm_back_translation": "In Japan, the first cherry blossom viewing parties were hosted by the Emperor exclusively for himself and the noble members around the Imperial Court."
+    },
+    "ind_Latn": {
+      "original": "Di Jepang, pesta bunga sakura pertama diselenggarakan oleh kaisar hanya untuk dirinya sendiri dan anggota aristokrasi lain di sekitar Istana Kekaisaran.",
+      "goog_back_translation": "In Japan, the first cherry blossom party was held by the emperor only for itself and other aristocracy members around the imperial palace.",
+      "nllb_back_translation": "In Japan, the first sakura flower festival was held by the emperor only for himself and other members of the aristocracy around the Imperial Palace.",
+      "llm_back_translation": "In Japan, the first cherry blossom festival was held by the emperor exclusively for himself and other members of the aristocracy around the Imperial Palace."
+    },
+    "tgl_Latn": {
+      "original": "Sa bansang Hapon, ang unang mga salu-salong kaugnay ng cherry blossom ay idinaos ng emperador para lang sa kaniyang sarili at ibang miyembro ng aristokrasya sa paligid ng Korteng Imperyal.",
+      "goog_back_translation": "In Japan, the first seasons related to the Cherry Blossom were held by the emperor just for himself and other members of the aristocracy around the imperial core.",
+      "nllb_back_translation": "In Japan, the first cherry blossoms were made by the emperor for himself and other members of the aristocracy around the Imperial Court.",
+      "llm_back_translation": "In Japan, the first cherry blossom viewing parties were held by the emperor exclusively for himself and other members of the aristocracy around the Imperial Court."
+    },
+    "tha_Thai": {
+      "original": "ในญี่ปุ่น งานเลี้ยงชมซากุระครั้งแรกจัดขึ้นโดยจักรพรรดิให้ตัวพระองค์เองและสมาชิกชนชั้นสูงคนอื่น ๆ ที่อยู่ในบริเวณราชสำนักเท่านั้น",
+      "goog_back_translation": "In Japan, the first Sakura party was held by the Emperor for himself and other high -ranking members of the court only.",
+      "nllb_back_translation": "In Japan, the first Sakura festival was held by the emperor for himself and other members of the royal court.",
+      "llm_back_translation": "In Japan, the first cherry blossom viewing party was held by the emperor for himself and other high-ranking members of the court exclusively."
+    }
+  },
+  "With 17,000 islands to choose from, Indonesian food is an umbrella term covering a vast variety of regional cuisines found across the nation.": {
+    "zho_hans": {
+      "original": "印度尼西亚有 17,000 个岛屿，因此印尼菜只是一个统称，它涵盖了全国各种各样的地方菜系。",
+      "goog_back_translation": "Indonesia has 17,000 islands, so Indonesian cuisine is just a collective name, covering a wide variety of local cuisines across the country.",
+      "nllb_back_translation": "Indonesia has 17,000 islands, so Indonesian cuisine is just a metaphor, it covers a wide variety of local cuisines across the country.",
+      "llm_back_translation": "Indonesia has 17,000 islands, so Indonesian cuisine is just a general term that encompasses a wide variety of local culinary traditions across the country."
+    },
+    "jpn_Jpan": {
+      "original": "1万7千もの島々の料理から選べるインドネシア料理は、この国全域に見られる実にさまざまな地域料理の総称です。",
+      "goog_back_translation": "With a choice of dishes from 17,000 islands, Indonesian cuisine is a general term for the incredible variety of regional cuisines found throughout the country.",
+      "nllb_back_translation": "Indonesian cuisine, which you can choose from the cuisines of 17,000 islands, is the sum total of the many different regional cuisines found throughout the country.",
+      "llm_back_translation": "Indonesian cuisine, which offers a selection from the dishes of 17,000 islands, is a collective term for the truly diverse regional dishes found throughout the country."
+    },
+    "vie_Latn": {
+      "original": "Với 17.000 hòn đảo để lựa chọn, nền ẩm thực Indonesia là sự kết hợp đa dạng cực kỳ phong phú của ẩm thực vùng miền trên khắp đất nước.",
+      "goog_back_translation": "With 17,000 islands to choose, Indonesian cuisine is an extremely diverse combination of regional cuisine across the country.",
+      "nllb_back_translation": "With 17,000 islands to choose from, Indonesian cuisine is an extremely diverse blend of regional cuisines across the country.",
+      "llm_back_translation": "With 17,000 islands to choose from, Indonesian cuisine is an incredibly rich and diverse combination of regional dishes across the country."
+    },
+    "ind_Latn": {
+      "original": "Terdapat 17.000 pulau yang bisa dipilih, adapun makanan Indonesia merupakan istilah umum yang mewakili beragam masakan daerah yang ditemukan di seluruh negeri.",
+      "goog_back_translation": "There are 17,000 islands to choose from, while Indonesian food is a general term that represents a variety of regional cuisine found throughout the country.",
+      "nllb_back_translation": "There are 17,000 islands to choose from, but Indonesian food is a general term that represents a variety of regional cuisines found throughout the country.",
+      "llm_back_translation": "There are 17,000 islands to choose from, and Indonesian food is a general term that represents the diverse regional cuisines found throughout the country."
+    },
+    "tgl_Latn": {
+      "original": "Dahil may 17,000 pagpipiliang isla, ang pagkaing Indonesian ay isang terminong pang-ugnay na sumasaklaw sa malawak na pagkakasari-sari ng mga lutuing rehiyonal na matatagpuan sa buong bansa.",
+      "goog_back_translation": "Since there are 17,000 island options, Indonesian food is a linking term that covers the wide variety of regional dishes located throughout the country.",
+      "nllb_back_translation": "With a selection of 17,000 islands, Indonesian cuisine is a related term that encompasses the wide variety of regional cuisines found throughout the country.",
+      "llm_back_translation": "With over 17,000 islands to choose from, Indonesian cuisine is an umbrella term that encompasses a vast diversity of regional dishes found across the country."
+    },
+    "tha_Thai": {
+      "original": "เนื่องจากมีหมู่เกาะให้เลือกถึง 17,000 เกาะ คำว่าอาหารอินโดนีเซียจึงเป็นคำเรียกกว้าง ๆ ที่ครอบคลุมถึงอาหารประจำภูมิภาคทั่วประเทศ",
+      "goog_back_translation": "Due to the islands to choose from 17,000 islands, the word Indonesian food is a wide range that covers regional food nationwide.",
+      "nllb_back_translation": "Since there are 17,000 islands to choose from, Indonesian cuisine is a broad term that encompasses regional cuisine throughout the country.",
+      "llm_back_translation": "With over 17,000 islands to choose from, the term 'Indonesian cuisine' is a broad label that encompasses regional dishes from across the country."
+    }
+  },
+  "Now widely available throughout the archipelago, Javanese cuisine features an array of simply seasoned dishes, the predominant flavorings the Javanese favor being peanuts, chillies, sugar (especially Javanese coconut sugar) and various aromatic spices.": {
+    "zho_hans": {
+      "original": "现在，群岛上到处都能吃到爪哇菜，其中有多款调味方法简单的菜品，而爪哇人喜欢的主要调味料有花生、辣椒、糖(尤其是爪哇椰子糖)和各种香辛料。",
+      "goog_back_translation": "Nowadays, Javanese cuisine can be eaten everywhere in the archipelago, including many dishes with simple seasoning methods, and the main seasonings that Javanese like are peanuts, chili, sugar (especially Javanese coconut sugar) and various spices.",
+      "nllb_back_translation": "Now, all over the archipelago, you can eat Javanese cuisine, which includes many simple flavours, while Javanese's main preferred flavours are peanuts, onions, sugar (espe",
+      "llm_back_translation": "Now, Javanese cuisine can be found all over the islands, featuring many dishes with simple seasoning methods. The main condiments favored by the Javanese include peanuts, chili peppers, sugar (especially Javanese coconut sugar), and various spices."
+    },
+    "jpn_Jpan": {
+      "original": "現在では列島全体に広く普及しているジャワ料理は、シンプルな味付けが特長で、主な調味料はピーナッツ、唐辛子、砂糖(特にジャワのココナッツシュガー)やさまざまな香辛料です。",
+      "goog_back_translation": "Javanese cuisine, which is now widely used throughout the archipelago, is characterized by its simple seasoning, with its main seasonings being peanuts, chili peppers, sugar (particularly Javanese coconut sugar) and various spices.",
+      "nllb_back_translation": "Nowadays, Javanese cuisine is widespread throughout the archipelago, with a simple flavor, and the main ingredients are peanuts, cinnamon, sugar (especially Javanese cocon",
+      "llm_back_translation": "Currently, Javanese cuisine, which is widely popular throughout the archipelago, is characterized by its simple seasoning. The main condiments include peanuts, chili peppers, sugar (especially Javanese coconut sugar), and various spices."
+    },
+    "vie_Latn": {
+      "original": "Hiện đã có khắp nơi trên quần đảo, ẩm thực Java bao gồm một loạt các món ăn chế biến gia vị đơn giản, hương vị yêu thích hơn cả của người Java là đậu, ớt, đường (đặc biệt là đường dừa Java) và nhiều gia vị dậy mùi thơm khác nhau.",
+      "goog_back_translation": "There are now all over the archipelago, Java cuisine includes a series of simple spice dishes, the most favorite flavor of Java people, beans, chili, sugar (especially Java coconut sugar) and many different flavored spices.",
+      "nllb_back_translation": "Now widespread throughout the archipelago, Javanese cuisine includes a variety of simple spicy processed dishes, with Javanese's preferred flavours being beans, chili, sugar (espe",
+      "llm_back_translation": "Now found everywhere across the archipelago, Javanese cuisine includes a variety of dishes prepared with simple spices. The flavors most beloved by the Javanese are beans, chilies, sugar (especially Javanese coconut sugar), and various other aromatic spices."
+    },
+    "ind_Latn": {
+      "original": "Masakan Jawa kini banyak tersedia di seluruh nusantara, menyajikan berbagai hidangan berbumbu sederhana. Bumbu utama yang disukai cita rasa Jawa adalah kacang tanah, cabai, gula (terutama gula kelapa Jawa) dan berbagai rempah-rempah aromatik.",
+      "goog_back_translation": "Javanese cuisine is now widely available throughout the archipelago, serving a variety of simple seasoning dishes. The main spices that are liked by the taste of Java are peanuts, chili, sugar (especially Javanese coconut sugar) and various aromatic spices.",
+      "nllb_back_translation": "Javanese cuisine is now widely available throughout the archipelago, serving a variety of simple spicy dishes.",
+      "llm_back_translation": "Javanese cuisine is now widely available throughout the archipelago, offering a variety of dishes with simple yet flavorful spices. The main spices favored in Javanese flavors are peanuts, chili, sugar (especially Javanese coconut sugar), and various aromatic spices."
+    },
+    "tgl_Latn": {
+      "original": "Ngayon malawak na magagamit sa buong arkipelago, itinatampok ng lutong Javanese ang isang hilera nang simpleng tinimplahang mga lutuin, ang namamayani na pampalasa ng Javanese ay pumapabor sa mga mani, sili, asukal (lalo na ang Javanese na asukal ng buko) at iba-ibang mababangong pampalasa.",
+      "goog_back_translation": "Now widely available throughout the archipelago, the Javanese cooked row features a row of simply seasoned dishes, the dominant Javanese spice favors nuts, peppers, sugar (especially Javanese knuckles) and a variety of spices.",
+      "nllb_back_translation": "Now widely available throughout the archipelago, Javanese cuisine features a line of simple dishes, the rich Javanese cuisine favours peanuts, chili, sugar (especially the Javanese sugar",
+      "llm_back_translation": "Now widely available throughout the archipelago, Javanese cuisine features a range of simply seasoned dishes, with the dominant Javanese flavors favoring nuts, chili, sugar (especially Javanese coconut sugar), and various aromatic spices."
+    },
+    "tha_Thai": {
+      "original": "อาหารชวาซึ่งปัจจุบันมีให้บริการอย่างแพร่หลายทั่วทั้งหมู่เกาะ ประกอบด้วยอาหารที่ปรุงรสอย่างเรียบง่าย เครื่องปรุงรสที่โดดเด่นของชาวชวา ได้แก่ ถั่วลิสง พริก น้ำตาล (โดยเฉพาะน้ำตาลมะพร้าวชวา) และเครื่องเทศต่าง ๆ ที่มีกลิ่นหอม",
+      "goog_back_translation": "Java food, which is currently available throughout the islands. Consisting of food that is seasoned simply The outstanding seasonings of Java people include peanuts, chilli, sugar (especially Java coconut sugar) and various fragrant spices.",
+      "nllb_back_translation": "The Shawa dish, which is now widely served throughout the island, consists of lightly seasoned dishes, distinctive Shawa flavours, such as lemon peas, onions, sugar (especially",
+      "llm_back_translation": "Javanese cuisine, which is now widely available throughout the islands, consists of simply seasoned dishes. The distinctive seasonings of the Javanese include peanuts, chili, sugar (especially Javanese coconut sugar), and various aromatic spices."
+    }
+  },
+  "Since 1966 the Sundarbans have been a wildlife sanctuary, and it is estimated that there are now 400 Royal Bengal tigers and about 30,000 spotted deer in the area.": {
+    "zho_hans": {
+      "original": "自 1966 年以来，孙德尔本斯一直是野生动物保护区。据估计，目前该区生活着 400 只皇家孟加拉虎和大约 3 万只梅花鹿。",
+      "goog_back_translation": "Sundalbans has been a wildlife sanctuary since 1966. It is estimated that 400 Royal Bengal tigers and about 30,000 sika deer live in the district at present.",
+      "nllb_back_translation": "Since 1966, Sundarbans has been a wildlife sanctuary. It is estimated that the area is currently home to only 400 royal Bengal tigers and about 30,000 rhino deer.",
+      "llm_back_translation": "Since 1966, the Sundarbans has been a wildlife sanctuary. It is estimated that the area is currently home to 400 Royal Bengal Tigers and approximately 30,000 spotted deer."
+    },
+    "jpn_Jpan": {
+      "original": "1966年からスンダルバンスは野生動物保護区となり、現在では推定で400頭のロイヤルベンガルトラと約30,000頭のアクシスジカが生息しています。",
+      "goog_back_translation": "Since 1966, Sundalvans has become a wildlife sanctuary, and is now home to an estimated 400 Royal Bengal tigers and approximately 30,000 Axillary Deer.",
+      "nllb_back_translation": "Since 1966, Sundarbans has been a wildlife sanctuary and is now home to an estimated 400 royal Bengal tigers and about 30,000 aquatic animals.",
+      "llm_back_translation": "Since 1966, the Sundarbans has been a wildlife sanctuary, and it is now estimated to be home to around 400 Royal Bengal tigers and approximately 30,000 axis deer."
+    },
+    "vie_Latn": {
+      "original": "Từ năm 1966 Sundarbans là khu bảo tồn động vật hoang dã và ước tính hiện nay có 400 con cọp Hoàng gia Bengal và khoảng 30.000 con hươu đốm trong vùng này.",
+      "goog_back_translation": "Since 1966 Sundarbans is a wildlife reserve and estimates that there are 400 Bengal royal tigers and about 30,000 deer in this area.",
+      "nllb_back_translation": "Since 1966 Sundarbans has been a wildlife sanctuary and it is estimated that there are currently 400 Royal Bengal tigers and about 30,000 deer in the area.",
+      "llm_back_translation": "Since 1966, the Sundarbans has been a wildlife sanctuary, and it is estimated that there are currently 400 Royal Bengal tigers and about 30,000 spotted deer in this area."
+    },
+    "ind_Latn": {
+      "original": "Sejak tahun 1966, Sundarbans merupakan suaka bagi satwa liar, dan diperkirakan saat ini ada 400 harimau Royal Bengala dan sekitar 30.000 rusa bintik di area tersebut.",
+      "goog_back_translation": "Since 1966, Sundarbans has been a reserve for wildlife, and it is estimated that there are currently 400 Royal Bengala tiger and around 30,000 deer spots in the area.",
+      "nllb_back_translation": "Since 1966, Sundarbans has been a haven for wildlife, and it is estimated that there are currently 400 Royal Bengal tigers and about 30,000 spotted deer in the area.",
+      "llm_back_translation": "Since 1966, the Sundarbans has been a wildlife sanctuary, and it is estimated that there are currently 400 Royal Bengal tigers and about 30,000 spotted deer in the area."
+    },
+    "tgl_Latn": {
+      "original": "Simula noong 1966 naging santuwaryo na ng maiilap na hayop ang Sundarbans, at tinatayang may 409 na tigreng Royal Bengal na ngayon at halos 30,000 batik-batik na usa sa lugar.",
+      "goog_back_translation": "Since 1966 the Sundarbans have become a sanctuary of wild animals, and are estimated to have 409 Royal Bengal tigres and nearly 30,000 spotted deer in the area.",
+      "nllb_back_translation": "Since 1966 the Sundarbans has been a wildlife sanctuary, and it is estimated that there are now 409 Royal Bengal tigers and some 30,000 bats in the area.",
+      "llm_back_translation": "Since 1966, the Sundarbans has been a sanctuary for wild animals, and it is estimated that there are now 409 Royal Bengal tigers and nearly 30,000 spotted deer in the area."
+    },
+    "tha_Thai": {
+      "original": "สุนทรพนเป็นพื้นที่เขตรักษาพันธุ์สัตว์ป่ามาตั้งแต่ปี 1966 โดยคาดว่าในปัจจุบัน พื้นที่แห่งนี้มีเสือโคร่งเบงกอลอยู่ราว ๆ 400 ตัว และมีกวางดาวอยู่ประมาณ 30,000 ตัว",
+      "goog_back_translation": "Sunthornphan has been a wildlife sanctuary since 1966, which is expected to This area has about 400 tigers, and about 30,000 deer deer.",
+      "nllb_back_translation": "Sumatra has been a wildlife sanctuary since 1966, and it is estimated that there are currently about 400 Bengal tigers and about 30,000 star deer in the area.",
+      "llm_back_translation": "Sundarbans has been a wildlife sanctuary since 1966. It is estimated that currently, this area is home to around 400 Bengal tigers and approximately 30,000 spotted deer."
+    }
+  },
+  "The Great Pyramid at Giza is the only one of the seven wonders that is still standing today.": {
+    "zho_hans": {
+      "original": "吉萨大金字塔是七大奇迹中唯一至今仍屹立不倒的建筑。",
+      "goog_back_translation": "The Great Pyramid of Giza is the only building that remains standing among the seven miracles.",
+      "nllb_back_translation": "The Great Pyramid of Giza is the only one of the Seven Wonders of the Ancient World still standing.",
+      "llm_back_translation": "The Great Pyramid of Giza is the only one of the Seven Wonders of the Ancient World that still stands today."
+    },
+    "jpn_Jpan": {
+      "original": "ギザの大ピラミッドは、七不思議の中で唯一現存しているものです。",
+      "goog_back_translation": "The Great Pyramid of Giza is the only one that remains in existence among the Seven Wonders.",
+      "nllb_back_translation": "The Great Pyramid of Giza is the only surviving one of the Seven Wonders.",
+      "llm_back_translation": "The Great Pyramid of Giza is the only one of the Seven Wonders of the World that still exists today."
+    },
+    "vie_Latn": {
+      "original": "Đại Kim Tự Tháp ở Giza là một trong bảy kì quan thế giới vẫn còn tồn tại cho đến ngày nay.",
+      "goog_back_translation": "The Great Pyramid in Giza is one of the seven world wonders that still exist to this day.",
+      "nllb_back_translation": "The Great Pyramid of Giza is one of the Seven Wonders of the World that remains to this day.",
+      "llm_back_translation": "The Great Pyramid of Giza is one of the Seven Wonders of the World that still exists today."
+    },
+    "ind_Latn": {
+      "original": "Piramida Agung di Giza adalah satu-satunya dari tujuh keajaiban yang masih berdiri hingga saat ini.",
+      "goog_back_translation": "The Great Pyramid in Giza is the only seven miracles that are still standing today.",
+      "nllb_back_translation": "The Great Pyramid at Giza is the only one of the seven wonders that still stands today.",
+      "llm_back_translation": "The Great Pyramid of Giza is the only one of the Seven Wonders that still stands today."
+    },
+    "tgl_Latn": {
+      "original": "Ang Great Pyramid sa Giza ay ang tanging isa sa pitong kamangha-manghang tanawin na nananatili pa ngayon.",
+      "goog_back_translation": "The Great Pyramid in Giza is the only one of the seven amazing views that is still remains today.",
+      "nllb_back_translation": "The Great Pyramid at Giza is the only one of the seven wonders that remains today.",
+      "llm_back_translation": "The Great Pyramid of Giza is the only one of the seven wonders of the world that still remains today."
+    },
+    "tha_Thai": {
+      "original": "มหาพีระมิดแห่งกีซาคือหนึ่งในเจ็ดสิ่งมหัศจรรย์เพียงแห่งเดียวที่ยังคงดำรงอยู่ในปัจจุบัน",
+      "goog_back_translation": "The Great Pyramid of Kisa is one of the only seven wonders that are still currently existing.",
+      "nllb_back_translation": "The Great Pyramid of Giza is one of the only seven wonders still standing today.",
+      "llm_back_translation": "The Great Pyramid of Giza is the only one of the Seven Wonders of the Ancient World that still stands today."
+    }
+  },
+  "Machu Picchu consist of three main structures, namely Intihuatana, the Temple of the Sun, and the Room of the Three Windows.": {
+    "zho_hans": {
+      "original": "马丘比丘古城由三座主要建筑物组成，分别是拴日石 (Intihuatana)、太阳神庙和三窗之屋。",
+      "goog_back_translation": "The ancient city of Machu Picchu is composed of three main buildings, namely Intihuatana, the Temple of the Sun and the House of Three Windows.",
+      "nllb_back_translation": "Machu Picchu ancient city is made up of three main buildings, namely 日石 (Intihuatana), sun god, and three-window house.",
+      "llm_back_translation": "The ancient city of Machu Picchu consists of three main structures: the Intihuatana (Hitching Post of the Sun), the Temple of the Sun, and the House of the Three Windows."
+    },
+    "jpn_Jpan": {
+      "original": "マチュピチュは、日時計(インティワタナ)、太陽の神殿(大塔)、そして3つの窓の神殿という主な3つの建造物で構成されます。",
+      "goog_back_translation": "Machu Picchu consists of three main structures: the sundial (Intihuatana), the temple of the sun (the great tower), and the three-window temple.",
+      "nllb_back_translation": "Machu Picchu is made up of three main structures: the Sun Clock, the Intiwatana, the Temple of the Sun, the Great Tower, and the Temple of the Three Windows.",
+      "llm_back_translation": "Machu Picchu is composed of three main structures: the Intihuatana (sun clock), the Temple of the Sun (Great Tower), and the Temple of the Three Windows."
+    },
+    "vie_Latn": {
+      "original": "Machu Picchu gồm có ba cấu trúc chính là Intihuatana, Đền thờ Thần Mặt Trời và Phòng Có Ba Cửa Sổ.",
+      "goog_back_translation": "Machu Picchu consists of three main structures: Intihuatana, the Temple of the Sun and the room with three windows.",
+      "nllb_back_translation": "Machu Picchu consists of three main structures: the Intihuatana, the Temple of the Sun God, and the Room with Three Gates.",
+      "llm_back_translation": "Machu Picchu consists of three main structures: Intihuatana, the Temple of the Sun, and the Room of the Three Windows."
+    },
+    "ind_Latn": {
+      "original": "Machu Picchu terdiri dari tiga struktur utama, yaitu Intihuatana, Kuil Matahari, dan Ruangan Tiga Jendela.",
+      "goog_back_translation": "Machu Picchu consists of three main structures, namely inhabited, sun temples, and three windows rooms.",
+      "nllb_back_translation": "Machu Picchu is made up of three main structures, the Intihuatana, the Temple of the Sun, and the Three Window Room.",
+      "llm_back_translation": "Machu Picchu consists of three main structures: Intihuatana, the Temple of the Sun, and the Room of the Three Windows."
+    },
+    "tgl_Latn": {
+      "original": "Binubuo ang Machu Pichu ng tatlong pangunahing mga estruktura, ang Intihuatana, ang Templo ng Araw, at ang Silid ng Tatlong mga Bintana.",
+      "goog_back_translation": "Machu Pichu consists of three main structures, the intihuatana, the sun's temple, and the three windows room.",
+      "nllb_back_translation": "Machu Pichu consists of three main structures, the Intihuatana, the Temple of the Sun, and the Three-Window Gate.",
+      "llm_back_translation": "Machu Picchu is composed of three main structures: the Intihuatana, the Temple of the Sun, and the Room of the Three Windows."
+    },
+    "tha_Thai": {
+      "original": "มาชูปิกชู ซากอารยธรรมโบราณของชาวอินคา ประกอบไปด้วยโครงสร้างหลักทั้งหมด 3 ส่วนด้วยกัน ได้แก่ หินบอกเวลาอินติฮัวทานา วิหารแห่งดวงอาทิตย์ และห้องแห่งหน้าต่าง 3 บาน",
+      "goog_back_translation": "Machu Chujikhu, the ancient civilization of the Inca people. Consisting of 3 main structures, including stone, indicating the time of Inthua The temple of the sun And the room of 3 windows",
+      "nllb_back_translation": "Machu Picchu, the ancient Inca civilization, was composed of three main structures together: the Intihuatana Timestone, the Temple of the Sun, and the Three Window Room.",
+      "llm_back_translation": "Machu Picchu, the ancient ruins of the Inca civilization, consists of three main structures: the Intihuatana stone (the sun clock), the Temple of the Sun, and the Room of the Three Windows."
+    }
+  },
+  "The Kruger National Park (KNP) lies in the north-east of South Africa and runs along the border of Mozambique in the east, Zimbabwe in the north, and the southern border is the Crocodile River.": {
+    "zho_hans": {
+      "original": "克鲁格国家公园 (KNP) 位于南非东北部，东部与莫桑比克接壤，北部与津巴布韦接壤，南部以鳄鱼河 (Crocodile River) 为边境。",
+      "goog_back_translation": "Kruger National Park (KNP) is located in northeastern South Africa, bordering Mozambique to the east, Zimbabwe to the north, and the Crocodile River to the south.",
+      "nllb_back_translation": "Kruger National Park (KNP) is located in northeastern South Africa, bordered on the east by Mozambique, on the north by Zimbabwe, and on the south by the Crocodile River.",
+      "llm_back_translation": "Kruger National Park (KNP) is located in the northeastern part of South Africa, bordering Mozambique to the east, Zimbabwe to the north, and the Crocodile River to the south."
+    },
+    "jpn_Jpan": {
+      "original": "クルーガー国立公園(KNP)は、南アフリカの北東部に位置し、東はモザンビーク、北はジンバブエとの国境に沿って走り、南の国境はクロコダイル川になっています。",
+      "goog_back_translation": "Kruger National Park (KNP) is located in the northeastern part of South Africa, running along the border with Mozambique to the east and Zimbabwe to the north, and the Crocodile River to the south.",
+      "nllb_back_translation": "Kruger National Park (KNP) is located in northeastern South Africa, bordered by Mozambique to the east, Zimbabwe to the north, and the Crocodile River to the south.",
+      "llm_back_translation": "Kruger National Park (KNP) is located in the northeastern part of South Africa, bordered by Mozambique to the east, Zimbabwe to the north, and the Crocodile River to the south."
+    },
+    "vie_Latn": {
+      "original": "Công viên quốc gia Kruger National Park (KNP) nằm ở phía đông bắc của Nam Phi và chạy dọc theo biên giới Mozambique ở phía đông, Zimbabwe ở phía bắc, và biên giới phía nam là sông Crocodile River.",
+      "goog_back_translation": "Kruger National Park National Park (KNP) is located in the northeast of South Africa and runs along the Mozambique border in the east, Zimbabwe in the north, and the southern border is the Crocodile River River.",
+      "nllb_back_translation": "Kruger National Park (KNP) is located in northeastern South Africa and runs along the border of Mozambique to the east, Zimbabwe to the north, and the southern border is the Crocodile River.",
+      "llm_back_translation": "Kruger National Park (KNP) is located in the northeastern part of South Africa and stretches along the border of Mozambique to the east, Zimbabwe to the north, and the southern border is the Crocodile River."
+    },
+    "ind_Latn": {
+      "original": "Taman Nasional Kruger (TNK) terletak di timur laut Afrika Selatan dan membentang di sepanjang perbatasan Mozambik di timur, Zimbabwe di utara, dan perbatasan selatan adalah Sungai Buaya.",
+      "goog_back_translation": "Kruger National Park (TNK) is located northeast of South Africa and stretches along the Mozambik border in the east, Zimbabwe in the north, and the southern border is the Buaya River.",
+      "nllb_back_translation": "The Kruger National Park (KNR) is located in northeastern South Africa and stretches along the border of Mozambique to the east, Zimbabwe to the north, and the southern border is the Crocodile River.",
+      "llm_back_translation": "Kruger National Park (KNP) is located in the northeast of South Africa and stretches along the border of Mozambique to the east, Zimbabwe to the north, and the southern border is the Crocodile River."
+    },
+    "tgl_Latn": {
+      "original": "Ang Pambansang Parke ng Kruger (KNP) ay nasa sa hilagang-silangan ng Timog Aprika at bumabagtas sa kahabaan ng hangganan ng Mozambique sa silangan, Zimbabwe sa hilaga, at ang hangganan sa katimugan ay ang Ilog ng Buwaya.",
+      "goog_back_translation": "The national park of Kruger (KNP) is in the northeast of South Africa and crosses along the Mozambique border to the East, Zimbabwe to the north, and the border in the southern is the crocodile river.",
+      "nllb_back_translation": "The Kruger National Park (KNP) is located in northeastern South Africa and extends along the border of Mozambique to the east, Zimbabwe to the north, and the southern border is the Buwaya River.",
+      "llm_back_translation": "Kruger National Park (KNP) is located in the northeast of South Africa and stretches along the border of Mozambique to the east, Zimbabwe to the north, and the southern boundary is the Crocodile River."
+    },
+    "tha_Thai": {
+      "original": "อุทยานแห่งชาติครูเกอร์ (เคเอ็นพี) ตั้งอยู่ทางทิศตะวันออกเฉียงเหนือของแอฟริกาใต้ ขนานไปกับพรมแดนของโมซัมบิกที่อยู่ทางตะวันออก โดยมีซิมบับเวอยู่ทางทิศเหนือ และพรมแดนภาคใต้ติดกับแม่น้ำคร็อกโคไดล์",
+      "goog_back_translation": "Kru Gore National Park (KNP) is located in the northeast of South Africa. Parallel to the border of Mozambique in the east With Zimbabwe in the north And the southern border next to the Crocodile River",
+      "nllb_back_translation": "The Kruger National Park (KNP) is located in northeastern South Africa, bordering Mozambique to the east, with Zimbabwe to the north and the southern border on the Crocodile River.",
+      "llm_back_translation": "Kruger National Park (KNP) is located in the northeastern part of South Africa, running parallel to the border of Mozambique to the east, with Zimbabwe to the north and the southern border adjoining the Crocodile River."
+    }
+  },
+  "Reindeer husbandry is an important livelihood among the Sámi and the culture surrounding the trade is important also for many with other professions.": {
+    "zho_hans": {
+      "original": "驯鹿饲养是萨米人的一项重要生计。围绕该行业的文化对许多以其他职业为生的人也很重要。",
+      "goog_back_translation": "Reindeer feeding is an important livelihood of the Sami people. The culture surrounding the industry is also important to many people who make a living in other careers.",
+      "nllb_back_translation": "鹿养殖 is an important livelihood of the Sami people.The culture surrounding the industry is also important for many people who live by other occupations.",
+      "llm_back_translation": "Reindeer herding is an important livelihood for the Sami people. The culture surrounding this industry is also significant to many who make a living through other professions."
+    },
+    "jpn_Jpan": {
+      "original": "トナカイの飼育はサーミ族の重要な生計手段であり、その取引を取り巻く文化は他の職業を生業とする多くの人々にとっても重要なものです。",
+      "goog_back_translation": "Reindeer breeding is an important means of livelihood for the Sami people, and the culture surrounding the trade is also important for many people who make their living in other professions.",
+      "nllb_back_translation": "Tonakay breeding is an important means of subsistence for the Sarmi people, and the culture surrounding the trade is also important for many people who work in other professions.",
+      "llm_back_translation": "Reindeer herding is an important livelihood for the Sami people, and the culture surrounding its trade is also significant for many others who make their living in different professions."
+    },
+    "vie_Latn": {
+      "original": "Nuôi tuần lộc là sinh kế của người Sami và văn hóa xung quanh việc buôn bán cũng quan trọng với nhiều người ở các ngành nghề khác.",
+      "goog_back_translation": "Reindeer is the livelihood of the Sami people and the culture around the trade is also important for many people in other industries.",
+      "nllb_back_translation": "Herding is the Sami livelihood and the culture surrounding the trade is also important to many people in other professions.",
+      "llm_back_translation": "Reindeer herding is the livelihood of the Sami people, and the culture surrounding the trade is also important to many in various other professions."
+    },
+    "ind_Latn": {
+      "original": "Peternakan rusa merupakan sumber penghidupan penting bagi orang SÃ¡mi, Kebudayaan terkait perdagangannya juga penting buat banyak orang dan banyak profesi.",
+      "goog_back_translation": "Deer farm is an important source of livelihood for people, culture related to trade is also important for many people and many professions.",
+      "nllb_back_translation": "Deer farming is an important source of livelihood for the Sami people, and its trade-related culture is also important for many people and many professions.",
+      "llm_back_translation": "Reindeer herding is an important source of livelihood for the Sámi people. The culture related to its trade is also important for many people and professions."
+    },
+    "tgl_Latn": {
+      "original": "Ang pag-aalaga ng usa ay isang mahalagang kabuhayan sa hanay ng mga Sámi at ang kultura patungkol sa hanapbuhay na ito ay mahalaga rin para sa marami na may iba pang gawain.",
+      "goog_back_translation": "The care of the USA is an important livelihood among the Sámi and the culture of this business is also important for many with other work.",
+      "nllb_back_translation": "Caring for one is an important livelihood in the Sámi community and this livelihood culture is also important for many with other occupations.",
+      "llm_back_translation": "Reindeer herding is an important livelihood among the Sámi, and the culture surrounding this occupation is also significant for many who have other jobs."
+    },
+    "tha_Thai": {
+      "original": "การเลี้ยงกวางเรนเดียร์เป็นวิธีเลี้ยงชีพที่สำคัญในหมู่ชาวซามีและวัฒนธรรมโดยรอบ การค้าก็มีความสำคัญสำหรับอาชีพอื่น ๆ อีกหลายอาชีพเช่นเดียวกัน",
+      "goog_back_translation": "Raising reindeer is an important way of living among the Sasmi and the surrounding culture. Trade is also important for many other professions.",
+      "nllb_back_translation": "Raising rhino was an important means of subsistence among the Sami people and surrounding cultures. Trade was also important for many other professions as well.",
+      "llm_back_translation": "Reindeer herding is a vital livelihood method among the Sami people and their surrounding culture. Trade is also equally important for many other professions."
+    }
+  },
+  "The Amazon River is the second longest and the biggest river on Earth. It carries more than 8 times as much water as the second biggest river.": {
+    "zho_hans": {
+      "original": "亚马逊河是世界上第二长，也是最大的河流。 它的水量是第二大河流的 8 倍以上。",
+      "goog_back_translation": "The Amazon River is the second longest and largest river in the world. It has more than 8 times the amount of water that is the second largest river.",
+      "nllb_back_translation": "The Amazon River is the second longest and largest river in the world. Its water volume is more than eight times that of the second largest river.",
+      "llm_back_translation": "The Amazon River is the second longest and the largest river in the world. Its water volume is more than eight times that of the second largest river."
+    },
+    "jpn_Jpan": {
+      "original": "アマゾン川は、地球上で2番目に長く、最も大きい川です。水量は2番目に大きい川の8倍を上回ります。",
+      "goog_back_translation": "The Amazon River is the second longest and largest river on the planet. The water volume exceeds eight times the second largest river.",
+      "nllb_back_translation": "The Amazon is the second longest and largest river on Earth, with eight times the water volume of the second largest river.",
+      "llm_back_translation": "The Amazon River is the second longest and the largest river on Earth. Its water volume exceeds eight times that of the second largest river."
+    },
+    "vie_Latn": {
+      "original": "Sông Amazon là con sông lớn nhất và có chiều dài đứng hàng thứ hai trên Quả đất. Nó mang lượng nước nhiều gấp 8 lần lượng nước của con sông lớn thứ hai.",
+      "goog_back_translation": "The Amazon River is the largest river and has the second largest line on the earth. It carries 8 times the amount of water than the second largest river.",
+      "nllb_back_translation": "The Amazon River is the second largest and longest river on Earth, carrying eight times as much water as the second largest river.",
+      "llm_back_translation": "The Amazon River is the largest river and the second longest on Earth. It carries eight times more water than the second largest river."
+    },
+    "ind_Latn": {
+      "original": "Sungai Amazon adalah sungai terpanjang kedua dan terbesar pertama di Bumi. Sungai ini membawa air 8x lebih banyak dari sungai terbesar kedua.",
+      "goog_back_translation": "The Amazon River is the second longest and largest river on earth. This river carries 8x more water than the second largest river.",
+      "nllb_back_translation": "The Amazon River is the second longest and first largest river on Earth, carrying eight times as much water as the second largest river.",
+      "llm_back_translation": "The Amazon River is the second longest and the largest river on Earth. This river carries 8 times more water than the second largest river."
+    },
+    "tgl_Latn": {
+      "original": "Ang Ilog Amazon ay ang pangalawa sa pinakahaba at ang pinakamalaking ilog sa Mundo. Nagdadala ito ng tubig na mahigit sa 8 beses ang dami kaysa sa pangalawang pinakamalaking ilog.",
+      "goog_back_translation": "The Amazon River is the second of the longest and the largest river in the world. It carries water more than 8 times more than the second largest river.",
+      "nllb_back_translation": "The Amazon River is the second longest and largest river in the World, carrying more than eight times the volume of the world's second largest river.",
+      "llm_back_translation": "The Amazon River is the second longest and the largest river in the world. It carries more than 8 times the volume of water compared to the second largest river."
+    },
+    "tha_Thai": {
+      "original": "แม่น้ำอเมซอนเป็นแม่น้ำที่มีความยาวเป็นอันดับสองและมีขนาดใหญ่เป็นอันดับหนึ่งของโลก โดยมีปริมาณน้ำมากกว่าแม่น้ำที่ใหญ่เป็นอันดับสองมากกว่า 8 เท่า",
+      "goog_back_translation": "The Amazon River is the second and largest length river in the world. With the amount of water more than 8 times larger river",
+      "nllb_back_translation": "The Amazon is the second longest and largest river in the world, with more than eight times the volume of the second largest river.",
+      "llm_back_translation": "The Amazon River is the second longest and the largest river in the world, with a water volume more than eight times that of the second largest river."
+    }
+  },
+  "The Sundarbans are the largest littoral mangrove belt in the world, stretching 80 km (50 mi) into the Bangladeshi and Indian hinterland from the coast.": {
+    "zho_hans": {
+      "original": "孙德本尔斯 (Sundarbans) 是世界上最大的滨海红树林带，林带长 80 公里(50 英里)，从海岸一直延伸至孟加拉国和印度内陆。",
+      "goog_back_translation": "Sundarbans is the largest coastal mangrove belt in the world, with a 80 km (50 miles) length that extends from the coast to Bangladesh and the inland India.",
+      "nllb_back_translation": "Sundarbans is the world's largest redwood forest belt, 80 kilometres (50 miles) long, stretching from the coastline all the way to Bangladesh and the Indian mainland.",
+      "llm_back_translation": "The Sundarbans is the world's largest coastal mangrove belt, stretching 80 kilometers (50 miles) from the coast inland into Bangladesh and India."
+    },
+    "jpn_Jpan": {
+      "original": "スンダルバンスは世界最大の沿岸マングローブ地帯であり、海岸からバングラデシュとインドの内陸地域まで80 km(50マイル)にわたって広がっています。",
+      "goog_back_translation": "Sundarvansu is the world's largest coastal mangrove region, spanning 80 km (50 miles) from the coast to the inland regions of Bangladesh and India.",
+      "nllb_back_translation": "Sundarbans is the largest coastal mangrove region in the world, stretching for 80 kilometers from the coast to Bangladesh and the Indian mainland.",
+      "llm_back_translation": "The Sundarbans is the world's largest coastal mangrove region, stretching 80 km (50 miles) inland from the coast across Bangladesh and India."
+    },
+    "vie_Latn": {
+      "original": "Sundarbans là vành đai rừng ngập mặn ven biển lớn nhất trên thế giới trải dài 80 km (50 dặm) vào nội địa Băng-la-đét và Ấn Độ từ bờ biển.",
+      "goog_back_translation": "Sundarbans is the largest coastal mangrove belt in the world that stretches 80 km (50 miles) into the inland of the Bang-la-gut and India from the coast.",
+      "nllb_back_translation": "The Sundarbans is the world's largest coral reef stretching 80 km (50 mi) into the interior of Bangladesh and India from the coast.",
+      "llm_back_translation": "The Sundarbans is the largest coastal mangrove forest belt in the world, extending 80 km (50 miles) inland from the coast into Bangladesh and India."
+    },
+    "ind_Latn": {
+      "original": "Sundarbans merupakan sabuk bakau pesisir yang terbesar di dunia, membentang 80 km (50 mil) dari pesisir ke pedalaman Bangladesh dan India.",
+      "goog_back_translation": "Sundarbans is the largest coastal mangrove belt in the world, stretching 80 km (50 miles) from the coast into the interior of Bangladesh and India.",
+      "nllb_back_translation": "The Sundarbans is the world's largest coastal cod belt, stretching 80 km (50 miles) from the coast to the interior of Bangladesh and India.",
+      "llm_back_translation": "The Sundarbans is the largest coastal mangrove belt in the world, stretching 80 km (50 miles) from the coast inland into Bangladesh and India."
+    },
+    "tgl_Latn": {
+      "original": "Ang Sundarbans ang pinakamalaking bakawan na nasa kahabaan ng baybayin sa buong mundo, na umaabot nang 80 km (50 mi) na papasok sa mga lalawigan ng Bangladesh at India mula sa baybayin.",
+      "goog_back_translation": "Sundarbans are the largest mangroves along the coast around the world, reaching 80 km (50 mi) to enter the provinces of Bangladesh and India from the coast.",
+      "nllb_back_translation": "The Sundarbans are the largest coastal forests in the world, extending 80 km (50 mi) into the provinces of Bangladesh and India from the coast.",
+      "llm_back_translation": "The Sundarbans is the largest mangrove forest along the coastline in the world, extending up to 80 km (50 mi) inland into the regions of Bangladesh and India from the coast."
+    },
+    "tha_Thai": {
+      "original": "ซุนดาร์บันส์ คือบริเวณป่าชายเลนชายฝั่งทะเลที่ใหญ่ที่สุดในโลกซึ่งทอดยาวราว 80 กม. (50 ไมล์) ไปสู่เขตด้อยความเจริญของบังคลาเทศและอินเดียซึ่งอยู่ห่างจากชายฝั่ง",
+      "goog_back_translation": "Sundarbans is the largest coastal mangrove forest area in the world, which stretches around 80 km (50 miles) to the inferior areas of Bangladesh and India, which are away from the coast.",
+      "nllb_back_translation": "The Sundarbans is the world's largest coastal rainforest, extending about 50 miles to the impoverished areas of Bangladesh and India, far from the coast.",
+      "llm_back_translation": "The Sundarbans is the largest coastal mangrove forest in the world, stretching approximately 80 km (50 miles) into the underdeveloped regions of Bangladesh and India, located away from the coast."
+    }
+  },
+  "Taiwan beginning start way back in 15th century where European sailors passing by record the island's name as Ilha Formosa, or beautiful island.": {
+    "zho_hans": {
+      "original": "西方对台湾的了解可以追溯到 15 世纪。当时路过的欧洲水手将该岛命名为“福尔摩沙岛”(Ilha Formosa)，意思是美丽的岛屿。",
+      "goog_back_translation": "Western understanding of Taiwan can be traced back to the 15th century. European sailors passing by at that time named the island 'Ilha Formosa', which means a beautiful island.",
+      "nllb_back_translation": "Western knowledge of Taiwan dates back to the 15th century. European sailors who passed by then named the island 福尔摩沙岛 (Ilha Formosa), meaning beautiful island.",
+      "llm_back_translation": "Western knowledge of Taiwan dates back to the 15th century. At that time, European sailors passing by named the island 'Ilha Formosa,' meaning 'beautiful island.'"
+    },
+    "jpn_Jpan": {
+      "original": "台湾の始まりは15世紀にヨーロッパの船乗りたちがこの島の名前を「イルハ・フォルモサ」(美しい島)と呼んだことから始まりました。",
+      "goog_back_translation": "Taiwan began in the 15th century when European sailors called the island's name 'Ilha Formosa' (a beautiful island).",
+      "nllb_back_translation": "The origins of Taiwan began in the 15th century when European sailors named the island Ilha Formosa.",
+      "llm_back_translation": "The origin of Taiwan dates back to the 15th century when European sailors began calling the island 'Ilha Formosa' (beautiful island)."
+    },
+    "vie_Latn": {
+      "original": "Đài Loan bắt nguồn từ thế kỷ 15 khi các thủy thủ Châu Âu đi tàu ngang và ghi lại tên đảo là Ilha Formosa hay hòn đảo xinh đẹp.",
+      "goog_back_translation": "Taiwan originated in the 15th century when European sailors took the horizontal train and recorded the island name Ilha Formosa or the beautiful island.",
+      "nllb_back_translation": "Taiwan dates back to the 15th century when European sailors sailed across the island and recorded the name Ilha Formosa, or beautiful island.",
+      "llm_back_translation": "Taiwan originated in the 15th century when European sailors sailed by and recorded the island's name as Ilha Formosa, or the beautiful island."
+    },
+    "ind_Latn": {
+      "original": "Awal mula Taiwan dimulai jauh sejak abad ke-15 yaitu para pelaut Eropa yang lewat mencatat nama pulau itu sebagai Ilha Formosa, atau pulau yang indah.",
+      "goog_back_translation": "The beginning of Taiwan began far since the 15th century, namely European sailors who passed by recording the name of the island as Ilha Formosa, or a beautiful island.",
+      "nllb_back_translation": "Taiwan's origins date back to the 15th century when European sailors named the island Ilha Formosa, or beautiful island.",
+      "llm_back_translation": "The origins of Taiwan date back to the 15th century when European sailors passing by recorded the island's name as Ilha Formosa, or the beautiful island."
+    },
+    "tgl_Latn": {
+      "original": "Ang pinagmulan ng Taiwan ay nagsimula noon pang ika-15 siglo kung saan ang mga nagdaraang mandaragat na taga-Europa ay itinala ang pangalan ng isla bilang Ilha Formosa, o magandang isla.",
+      "goog_back_translation": "The origin of Taiwan began in the 15th century where the passing European sailors recorded the island's name as ILHA Formosa, or a beautiful island.",
+      "nllb_back_translation": "Taiwan's origins date back to the 15th century when European explorers named the island Formosa Island, or beautiful island.",
+      "llm_back_translation": "The origin of Taiwan dates back to the 15th century when passing European sailors recorded the island's name as Ilha Formosa, or beautiful island."
+    },
+    "tha_Thai": {
+      "original": "ไต้หวันถือกำเนิดมาตั้งแต่ศตวรรษที่ 15 เมื่อนักเดินเรือชาวยุโรปซึ่งเดินทางผ่านมาได้บันทึกชื่อเกาะนี้ไว้ว่า อิลลา ฟอร์มาซา (Ilha Formosa) หรือเกาะอันงดงาม",
+      "goog_back_translation": "Taiwan was born since the 15th century, when the European sailors who passed by the name of this island as Ilha Formosa or beautiful island.",
+      "nllb_back_translation": "Taiwan is thought to have originated in the 15th century when European sailors who passed through recorded the island as Ilha Formosa, or the Beautiful Island.",
+      "llm_back_translation": "Taiwan originated in the 15th century when European sailors passing by recorded the name of the island as Ilha Formosa, or the beautiful island."
+    }
+  },
+  "There is no universal definition for which manufactured items are antiques. Some tax agencies define goods older than 100 years as antiques.": {
+    "zho_hans": {
+      "original": "对于哪些加工物品是古董，没有统一的定义。一些税务机构将 100 年以上的物品定义为古董。",
+      "goog_back_translation": "There is no unified definition of which processed items are antiques. Some tax agencies define items over 100 years old as antiques.",
+      "nllb_back_translation": "There is no uniform definition of which processed items are antique. Some tax authorities define items that are more than 100 years old as antique.",
+      "llm_back_translation": "There is no unified definition for which processed items are considered antiques. Some tax authorities define items over 100 years old as antiques."
+    },
+    "jpn_Jpan": {
+      "original": "骨董品について普遍的な定義はありません。税務署によっては、100年以上前のものを骨董品と定義しています。",
+      "goog_back_translation": "There is no universal definition of antiques. Some tax offices define antiques that are more than 100 years old.",
+      "nllb_back_translation": "There's no universal definition of antiquities, and some tax departments define antiquities that are more than 100 years old.",
+      "llm_back_translation": "There is no universal definition for antiques. Some tax offices define items over 100 years old as antiques."
+    },
+    "vie_Latn": {
+      "original": "Không hề có một định nghĩa cụ thể nào để xác định một món đồ sản xuất là đồ cổ hay không. Một số cơ quan thuế quy định hàng hóa trên 100 tuổi là đồ cổ.",
+      "goog_back_translation": "There is no specific definition to determine whether an antique item is. Some tax authorities stipulate that goods over 100 years old are antiques.",
+      "nllb_back_translation": "There is no specific definition of whether a manufactured item is an antique or not. Some tax authorities classify items over 100 years old as antiques.",
+      "llm_back_translation": "There is no specific definition to determine whether a manufactured item is an antique or not. Some tax authorities define goods over 100 years old as antiques."
+    },
+    "ind_Latn": {
+      "original": "Tidak ada definisi universal yang menentukan barang produksi apa saja yang dianggap barang antik. Sejumlah kantor pajak mendefinisikan barang yang lebih tua dari 100 tahun sebagai barang antik.",
+      "goog_back_translation": "There is no universal definition that determines what production goods are considered antiques. A number of tax offices define goods that are older than 100 years as antiques.",
+      "nllb_back_translation": "There is no universal definition of what manufactured goods are considered antiques. A number of tax offices define items older than 100 years as antiques.",
+      "llm_back_translation": "There is no universal definition that determines which manufactured goods are considered antiques. Some tax offices define items older than 100 years as antiques."
+    },
+    "tgl_Latn": {
+      "original": "Walang pandaigdigang pagpapakahulugan kung aling mga bagay na ginawa ang mga antigo. Ang ibang mga ahensiya sa pagbubuwis ay binigyang kahulugan ang mga produktong higit pa sa 100 taon bilang mga antigo.",
+      "goog_back_translation": "There is no global interpretation of which objects made the vintage. Other taxing agencies have interpreted products more than 100 years as antique.",
+      "nllb_back_translation": "Other tax agencies have defined products for more than 100 years as antiques.",
+      "llm_back_translation": "There is no universal definition of which items are considered antiques. Some tax agencies interpret products over 100 years old as antiques."
+    },
+    "tha_Thai": {
+      "original": "ไม่มีคำจำกัดความสากลมาชี้ว่าสิ่งของที่มีการผลิตขึ้นมาสิ่งไหนเป็นโบราณวัตถุ หน่วยงานด้านภาษีบางแห่งจะกำหนดให้สินค้าที่มีอายุเกิน 100 ปีเป็นโบราณวัตถุ",
+      "goog_back_translation": "There is no international definition to point out what the items produced are what it is. Some tax agencies will require products that are over 100 years old as antiques.",
+      "nllb_back_translation": "There's no universal restriction on what objects are artifacts. Some tax authorities classify objects that are over 100 years old as artifacts.",
+      "llm_back_translation": "There is no universal definition to determine which manufactured items are considered antiquities. Some tax authorities classify items over 100 years old as antiquities."
+    }
+  }
+}
