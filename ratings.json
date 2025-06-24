@@ -7,144 +7,90 @@
         "candidate_sentence": "Cherry blossom viewing, also known as 'hanami', has become a Japanese custom since the 8th century.",
         "candidate_id": "candidate_1",
         "fluency_agent_response": {
-          "grammar_reasoning": "The sentence is grammatically flawless. It uses correct tense (\"has become\"), proper punctuation, and clear structure. The phrasing is natural and demonstrates native-like command.",
-          "grammar_rating": 5,
-          "spelling_reasoning": "There are no spelling mistakes in the provided text. The words are correctly spelled, including the term \"hanami,\" which is accurately represented.",
-          "spelling_rating": 5
+          "grammar_reasoning": "The sentence is grammatically flawless. It demonstrates proper subject-verb agreement, correct tense usage, and clear sentence structure.",
+          "grammar_rating": "Excellent",
+          "spelling_reasoning": "There are no spelling errors. The text adheres to standard English conventions.",
+          "spelling_rating": "Excellent"
         },
         "cultural_agent_response": {
-          "cultural_reasoning": "The translation seamlessly integrates the cultural elements (\"cherry blossom viewing,\" \"hanami,\" and \"Japanese custom\") into English while retaining their cultural significance. The use of \"hanami\" as a transliterated term and the historical context (\"since the 8th century\") demonstrate a deep understanding of the cultural context.",
+          "cultural_reasoning": "The translation seamlessly integrates all culturally significant terms and their context into English. It accurately conveys the cultural practice of 'hanami' and its historical roots in Japan.",
           "cultural_items_and_clues": [
             {
               "item_from_candidate": "Cherry blossom viewing",
               "item_from_source": "赏樱",
-              "surrounding_clues_from_source": [
-                "花见 (hanami)",
-                "日本习俗",
-                "8 世纪"
-              ],
-              "surrounding_clues_from_candidate": [
-                "hanami",
-                "Japanese custom",
-                "since the 8th century"
-              ],
-              "reasoning_with_tavily_search": "The translation accurately captures the cultural activity of \"赏樱\" as \"cherry blossom viewing,\" which is a well-known Japanese tradition. The term \"hanami\" is also correctly retained, providing additional cultural context.",
+              "historical_evidence": "The term refers to the Japanese tradition of admiring cherry blossoms, dating back to the 8th century.",
+              "reasoning": "The translation accurately reflects the cultural context.",
               "translated_correctly": true
             },
             {
               "item_from_candidate": "hanami",
               "item_from_source": "花见",
-              "surrounding_clues_from_source": [
-                "赏樱",
-                "日本习俗",
-                "8 世纪"
-              ],
-              "surrounding_clues_from_candidate": [
-                "Cherry blossom viewing",
-                "Japanese custom",
-                "since the 8th century"
-              ],
-              "reasoning_with_tavily_search": "The term \"hanami\" is directly transliterated, which is appropriate as it is a widely recognized term in English for this Japanese tradition. The surrounding context supports its cultural significance.",
+              "historical_evidence": "The term is widely recognized in English to describe the Japanese custom of flower viewing.",
+              "reasoning": "The translation retains the original term, preserving its cultural authenticity.",
               "translated_correctly": true
             }
           ],
-          "cultural_accuracy_rating": 5
+          "cultural_accuracy_rating": "Excellent"
         }
       },
       {
         "candidate_sentence": "赏, also called 花见 (hanami), has become a Japanese custom since the 8th century.",
         "candidate_id": "candidate_2",
         "fluency_agent_response": {
-          "grammar_reasoning": "The grammar is mostly correct, but there is a minor issue with the phrase \"has become a Japanese custom since the 8th century.\" A more natural phrasing might be \"has been a Japanese custom since the 8th century\" or \"became a Japanese custom in the 8th century.\" The current phrasing is understandable but slightly awkward.",
-          "grammar_rating": 4,
-          "spelling_reasoning": "The text contains no spelling errors. All words are correctly spelled, including the Japanese term \"hanami.\"",
-          "spelling_rating": 5
+          "grammar_reasoning": "The sentence is grammatically flawless, with correct subject-verb agreement and tense usage.",
+          "grammar_rating": "Excellent",
+          "spelling_reasoning": "No spelling errors; the text uses standard English spellings.",
+          "spelling_rating": "Excellent"
         },
         "cultural_agent_response": {
-          "cultural_reasoning": "The translation captures the basic cultural context of \"hanami\" and its association with Japanese tradition, which is good. However, it fails to fully translate \"赏樱\" (cherry blossom viewing), omitting the specific reference to cherry blossoms, which is a significant cultural oversight.",
+          "cultural_reasoning": "The translation omits the word '樱' (cherry blossoms), which is a critical cultural reference. The term '赏' alone is too generic.",
           "cultural_items_and_clues": [
             {
               "item_from_candidate": "赏",
               "item_from_source": "赏樱",
-              "surrounding_clues_from_source": [
-                "花见 (hanami)",
-                "日本习俗",
-                "8 世纪"
-              ],
-              "surrounding_clues_from_candidate": [
-                "花见 (hanami)",
-                "Japanese custom",
-                "since the 8th century"
-              ],
-              "reasoning_with_tavily_search": "The source term \"赏樱\" specifically refers to the act of \"cherry blossom viewing,\" which is a significant cultural activity in Japan. The candidate translation uses \"赏\" (shǎng), which means \"to appreciate\" or \"to admire,\" but it lacks the specific reference to cherry blossoms (\"樱\").",
+              "historical_evidence": "The term refers to cherry blossom viewing, a significant Japanese tradition.",
+              "reasoning": "The translation loses specificity by omitting 'cherry blossoms.'",
               "translated_correctly": false
             },
             {
               "item_from_candidate": "hanami",
               "item_from_source": "花见",
-              "surrounding_clues_from_source": [
-                "赏樱",
-                "日本习俗",
-                "8 世纪"
-              ],
-              "surrounding_clues_from_candidate": [
-                "赏",
-                "Japanese custom",
-                "since the 8th century"
-              ],
-              "reasoning_with_tavily_search": "The term \"花见\" (hanami) is correctly retained in the candidate translation, which is appropriate as it is a well-known Japanese term for cherry blossom viewing.",
+              "historical_evidence": "The term is widely recognized in English to describe the Japanese custom of flower viewing.",
+              "reasoning": "The translation retains the original term, preserving its cultural authenticity.",
               "translated_correctly": true
             }
           ],
-          "cultural_accuracy_rating": 3
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
         "candidate_sentence": "Cherry blossom viewing, also known as 'hanami', has been a Japanese tradition since the 8th century.",
         "candidate_id": "candidate_3",
         "fluency_agent_response": {
-          "grammar_reasoning": "The sentence is grammatically flawless. It demonstrates proper tense usage (\"has been\"), correct punctuation, and clear structure. The phrasing is natural and native-like.",
-          "grammar_rating": 5,
-          "spelling_reasoning": "The text contains no spelling errors. All words are correctly spelled, including the term \"hanami,\" which is accurately represented.",
-          "spelling_rating": 5
+          "grammar_reasoning": "The sentence is grammatically flawless, with correct subject-verb agreement and tense usage.",
+          "grammar_rating": "Excellent",
+          "spelling_reasoning": "No spelling errors; the text adheres to standard English conventions.",
+          "spelling_rating": "Excellent"
         },
         "cultural_agent_response": {
-          "cultural_reasoning": "The translation seamlessly integrates the cultural elements (\"cherry blossom viewing\" and \"hanami\") into English while preserving their cultural significance and historical context. The use of the term \"hanami\" and the explanation of its historical roots demonstrate a deep understanding of the cultural context.",
+          "cultural_reasoning": "The translation accurately reflects the cultural practice of 'hanami' and its historical roots in Japan.",
           "cultural_items_and_clues": [
             {
               "item_from_candidate": "Cherry blossom viewing",
               "item_from_source": "赏樱",
-              "surrounding_clues_from_source": [
-                "花见 (hanami)",
-                "日本习俗",
-                "8 世纪"
-              ],
-              "surrounding_clues_from_candidate": [
-                "hanami",
-                "Japanese tradition",
-                "since the 8th century"
-              ],
-              "reasoning_with_tavily_search": "The term \"赏樱\" is accurately translated as \"cherry blossom viewing,\" which is the literal meaning. The term \"hanami\" is retained in the translation, which is culturally appropriate as it is the Japanese term for this activity.",
+              "historical_evidence": "The term refers to the Japanese tradition of admiring cherry blossoms, dating back to the 8th century.",
+              "reasoning": "The translation accurately reflects the cultural context.",
               "translated_correctly": true
             },
             {
               "item_from_candidate": "hanami",
               "item_from_source": "花见",
-              "surrounding_clues_from_source": [
-                "赏樱",
-                "日本习俗",
-                "8 世纪"
-              ],
-              "surrounding_clues_from_candidate": [
-                "Cherry blossom viewing",
-                "Japanese tradition",
-                "since the 8th century"
-              ],
-              "reasoning_with_tavily_search": "The term \"花见\" is directly transliterated as \"hanami,\" which is the correct and culturally appropriate way to refer to this tradition in English.",
+              "historical_evidence": "The term is widely recognized in English to describe the Japanese custom of flower viewing.",
+              "reasoning": "The translation retains the original term, preserving its cultural authenticity.",
               "translated_correctly": true
             }
           ],
-          "cultural_accuracy_rating": 5
+          "cultural_accuracy_rating": "Excellent"
         }
       }
     ],

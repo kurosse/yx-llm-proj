@@ -15,13 +15,13 @@ class ModelSelector:
 
     def __init__(self):
         self.models = {
-            "deepseek_chat": OpenAIModel("deepseek-chat", provider=OpenAIProvider(base_url=DEEPSEEK_URL, api_key=DEEPSEEK_API_KEY)),
-            "deepseek_reasoner": OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url=DEEPSEEK_URL, api_key=DEEPSEEK_API_KEY)),
-            "gpt_4o_mini": OpenAIModel("gpt-4o-mini"),
+            "deepseek-chat": OpenAIModel("deepseek-chat", provider=OpenAIProvider(base_url=DEEPSEEK_URL, api_key=DEEPSEEK_API_KEY)),
+            "deepseek-reasoner": OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url=DEEPSEEK_URL, api_key=DEEPSEEK_API_KEY)),
+            "gpt-4o-mini": OpenAIModel("gpt-4o-mini"),
         }
 
     def get_model(self, model_name: str) -> OpenAIModel:
         return self.models.get(model_name, None)
 
 
-MODEL_SETTINGS = ModelSettings(temperature=1, logprobs=True, top_logprobs=5)
+MODEL_SETTINGS = ModelSettings(temperature=1, logprobs="hello", top_logprobs=5)

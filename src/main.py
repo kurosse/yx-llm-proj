@@ -4,14 +4,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 from pydantic_ai import Agent
-from loguru import logger
-from rich import print
 
 from src.utils.models import ModelSelector, MODEL_SETTINGS
 from src.utils.data_parser import parse_json, append_rating
-from src.agents.agents import fluency_agent, cultural_agent
-from src.agents.prompts.agent_prompts import AgentPrompts
+from src.agents.prompts.agent_prompts import MAIN_AGENT_PROMPT
 from src.agents.response_types import OverallResponseType
+from src.agents.tools import delegate_to_fluency_agent, delegate_to_cultural_agent, delegate_to_diachronic_agent
 
 # Constants
 RATINGS_FILE = "ratings.json"
@@ -22,34 +20,16 @@ message_history = []
 translation_data = parse_json(DATASET_PATH)
 
 # Initialize the main agent with OpenAIModel + provider; attach the system prompt.
-model = ModelSelector().get_model("deepseek_chat")
+model = ModelSelector().get_model("deepseek-chat")
 settings = MODEL_SETTINGS
-main_agent = Agent(model=model, model_settings=settings, system_prompt=AgentPrompts.MAIN_AGENT_PROMPT, output_type=OverallResponseType)
 
-
-# Register each delegate function as a tool.
-@main_agent.tool_plain
-async def delegate_to_fluency_agent(expression: str) -> str:
-    """
-    Checks fluency of the given English expression by delegating to fluency_agent.
-    Returns: a string rating or an error note.
-    """
-    logger.info(f"Delegating to fluency agent for expression: {expression}")
-    fluency_result = await fluency_agent.run(f"Rate the fluency of this expression: {expression}", message_history=message_history)
-    return fluency_result.output
-
-
-@main_agent.tool_plain
-async def delegate_to_cultural_agent(source_expression: str, candidate_expression: str) -> str:
-    """
-    Checks cultural appropriateness of the given English expression by delegating to cultural_agent.
-    Returns: a string rating or an error note.
-    """
-    logger.info(f"Delegating to cultural agent for expression pair: {source_expression}, {candidate_expression}")
-    cultural_result = await cultural_agent.run(
-        f"Rate the cultural appropriateness of this pair: {source_expression}, {candidate_expression}", message_history=message_history
-    )
-    return cultural_result.output
+main_agent = Agent(
+    model=model,
+    model_settings=settings,
+    system_prompt=MAIN_AGENT_PROMPT,
+    output_type=OverallResponseType,
+    tools=[delegate_to_fluency_agent, delegate_to_cultural_agent, delegate_to_diachronic_agent],
+)
 
 
 with open(RATINGS_FILE, "w", encoding="utf-8") as f:
@@ -64,9 +44,6 @@ for original_sentence, translation_contents in translation_data.items():
             "candidate_2": translations["nllb_back_translation"],
             "candidate_3": translations["llm_back_translation"],
         }
-
-        # src_text = translation_data_item["src_text"]
-        # translations = translation_data_item["translations"]
 
         # Prompt
         prompt = f"src_text {language_code}: " + src_text
@@ -84,7 +61,6 @@ for original_sentence, translation_contents in translation_data.items():
         # Clear the message history for the next iteration
         message_history.clear()
         breakpoint()
-    breakpoint()
 
 
 # For manual running, uncomment the following lines:

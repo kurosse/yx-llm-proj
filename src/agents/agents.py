@@ -3,17 +3,29 @@ import os
 from pydantic_ai import Agent
 from pydantic_ai.common_tools.tavily import tavily_search_tool
 
-from src.agents.prompts.agent_prompts import AgentPrompts
+from src.agents.prompts.agent_prompts import FLUENCY_AGENT_PROMPT, CULTURAL_AGENT_PROMPT, DIACHRONIC_AGENT_PROMPT
 from src.utils.models import ModelSelector, MODEL_SETTINGS
+from src.agents.response_types import FluencyAgentResponseType, CulturalAgentResponseType, DiachronicAgentResponseType
 
-fluency_agent = Agent(ModelSelector().get_model("deepseek_chat"), model_settings=MODEL_SETTINGS, system_prompt=AgentPrompts.FLUENCY_AGENT_PROMPT)
-cultural_agent = Agent(
-    ModelSelector().get_model("deepseek_chat"),
+fluency_agent = Agent(
+    ModelSelector().get_model("deepseek-chat"),
     model_settings=MODEL_SETTINGS,
-    system_prompt=AgentPrompts.CULTURAL_AGENT_PROMPT,
-    tools=[tavily_search_tool(os.getenv("TAVILY_API_KEY"))],
+    system_prompt=FLUENCY_AGENT_PROMPT,
+    output_type=FluencyAgentResponseType,
 )
 
+cultural_agent = Agent(
+    ModelSelector().get_model("deepseek-chat"),
+    model_settings=MODEL_SETTINGS,
+    system_prompt=CULTURAL_AGENT_PROMPT,
+    tools=[tavily_search_tool(os.getenv("TAVILY_API_KEY"))],
+    output_type=CulturalAgentResponseType,
+)
 
-# grammar_agent = Agent(OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY"))), system_prompt=grammar_prompt)
-# spelling_agent = Agent(OpenAIModel("deepseek-reasoner", provider=OpenAIProvider(base_url="https://api.deepseek.com/", api_key=os.getenv("DEEPSEEK_API_KEY"))), system_prompt=spelling_prompt)
+diachronic_agent = Agent(
+    ModelSelector().get_model("deepseek-chat"),
+    model_settings=MODEL_SETTINGS,
+    system_prompt=DIACHRONIC_AGENT_PROMPT,
+    tools=[tavily_search_tool(os.getenv("TAVILY_API_KEY"))],
+    output_type=DiachronicAgentResponseType,
+)
