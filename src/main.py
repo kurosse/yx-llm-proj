@@ -22,10 +22,10 @@ from src.agents.tools import (
 
 
 # Constants
-DATASET_PATH = "datasets/sample_dataset/flores_sample_translations_small.json"
+DATASET_PATH = "datasets/sample_dataset/flores_sample_translations.json"
 DATASET_TYPE = "flores200"
 RATINGS_FILE = "ratings/flores200-ratings.json"
-REMAKE_RATINGS = True
+REMAKE_RATINGS = False
 
 
 def main():
@@ -78,39 +78,22 @@ def main():
             prompt = f"src_text {language_code}: " + src_text
             for translation_id, translation_text in translations.items():
                 prompt += f"\n{translation_id}: {translation_text}"
-            prompt += "\n\nPlease evaluate the fluency of the translations."
+            prompt += "\n\nPlease evaluate the translations against the src_text."
 
             # Call the orchestrator agent
             result = main_agent.run_sync(prompt, message_history=message_history)
             message_history = result.all_messages()
 
             # Append the result to translations.json
-            append_rating(result.output, path=RATINGS_FILE)
+            append_rating(
+                result.output,
+                original_english_text=original_sentence,
+                path=RATINGS_FILE,
+            )
 
             # Clear the message history for the next iteration
             message_history.clear()
 
-            # breakpoint()
-
 
 if __name__ == "__main__":
     main()
-
-
-# For manual running, uncomment the following lines:
-# while True:
-#     user_input_flag = (
-#         "[green]Please enter a source expression in language A and its candidate translations in English (or type 'exit' to quit):[/green]"
-#     )
-#     print(user_input_flag)
-#     user_input = input().strip()
-#     if user_input.lower() in ["exit", "quit"]:
-#         break
-
-#     # Pass the full message history from prior runs so that context is preserved.
-#     result = main_agent.run_sync(user_input, message_history=message_history)
-#     message_history = result.all_messages()
-
-#     # The agent’s final output already concatenates the three ratings.
-#     print("\n")
-#     print(f"{result.output}")

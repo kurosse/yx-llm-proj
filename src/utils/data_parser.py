@@ -39,9 +39,10 @@ def parse_json(file_path: str) -> dict:
         return {}  # Return an empty dictionary on error
 
 
-def append_rating(model_output, path="ratings.json"):
+def append_rating(model_output, original_english_text = "", path="ratings.json"):
     # model_output: a Pydantic model instance
     item = model_output.dict()  # or json.loads(model_output.json())
+    item["original_english_text"] = original_english_text
     with open(path, "r+", encoding="utf-8") as f:
         data = json.load(f)  # load existing list
         data.append(item)  # append new entry
