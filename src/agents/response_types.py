@@ -24,12 +24,11 @@ class TermExtractionAgentResponseType(BaseModel):
 
 ##### Cultural Agent Response Types #####
 class CulturallySignficantTermAndClues(BaseModel):
-    item_from_candidate: str
+    item_from_candidate_translation: str
     item_from_source_original: str
-    item_from_source_translated: str
     surrounding_clues_from_source: list[str]
     surrounding_clues_from_candidate: list[str]
-    translation_evaluation_reasoning: str
+    candidate_translation_evaluation: str
     translated_correctly: bool
 
 

@@ -3,16 +3,7 @@
 # High resource languages - Chinese (zho_Hans), Japanese (jpn_Jpan)
 # Med resource languages - Vietnamese (vie_Latn), Indonesian (ind_Latn)
 # Low resource languages - Tagalog (tgl_Latn), Thai (tha_Thai) -> maybe try other languages like Acehnese or Thai (tha_Thai)
-LANGUAGES = {
-    "tso_Latn": "ts",
-    "amh_Ethi": "am",
-    "zho_Hans": "zh-CN",
-    "jpn_Jpan": "ja",
-    "vie_Latn": "vi",
-    "ind_Latn": "id",
-    "tgl_Latn": "tl",
-    "tha_Thai": "th",
-}
+LANGUAGES = {"zho_hans": "zh-CN", "jpn_Jpan": "ja", "vie_Latn": "vi", "ind_Latn": "id", "tgl_Latn": "tl", "tha_Thai": "th", "amh_Ethi": "am", "fij_Latn": "fj"}
 
 
 SELECTED_SENTENCES = [

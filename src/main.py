@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-
+from datetime import datetime
 
 from dotenv import load_dotenv
 
@@ -22,11 +22,16 @@ from src.agents.tools import (
 
 
 # Constants
-DATASET_PATH = "datasets/sample_dataset/flores_sample_translations.json"
+DATASET_PATH = "lang_datasets/sample_dataset/flores_sample_translations.json"
 DATASET_TYPE = "flores200"
 RATINGS_FILE = "ratings/flores200-ratings.json"
 REMAKE_RATINGS = False
 
+# Create a log file from loguru
+current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+log_file_path = Path(f"logs/flores200_ratings_{current_time}.log")
+log_file_path.parent.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+logger.add(log_file_path, rotation="25 MB")
 
 def main():
     # Initialize some variablesF
