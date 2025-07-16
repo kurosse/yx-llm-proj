@@ -10,7 +10,7 @@
           "grammar_reasoning": "The text exhibits minor grammatical issues, such as the awkward phrasing 'Seeing Cherry's blossom' (should be 'Seeing cherry blossoms') and the incorrect possessive form 'Cherry's blossom.' However, the overall structure and tense consistency are solid.",
           "grammar_rating": "Fair",
           "spelling_reasoning": "There are no spelling errors in the text, but the term 'Hanam' is likely a typo or incorrect transliteration of 'Hanami.'",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation accurately captures the cultural significance of 'hanami' as a traditional Japanese custom, but it incorrectly translates 'Majapani' as 'Japanese' instead of referring to the ancient Maya city of Mayapan. This misrepresentation distorts the cultural context.",
@@ -44,7 +44,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -94,7 +94,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -140,7 +140,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -530,7 +530,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -1365,7 +1365,7 @@
           "grammar_reasoning": "The text contains several grammatical issues, including incorrect verb tense ('prolifered' instead of 'proliferated'), awkward phrasing ('the Matiya's line of love again'), and unclear sentence structure. These errors hinder readability and clarity.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are noticeable spelling errors, such as 'prolifered' (should be 'proliferated') and 'Matiya's' (unclear if this is a proper noun or a misspelling). These mistakes distract from the text's meaning.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation captures some of the culturally significant terms but misses the mark on others, leading to a partial understanding of the original text's cultural context. For example, 'tidyondzo ta Budha' is mistranslated as 'The Buddha's Meditation Pose' instead of 'Buddha's studies,' which distorts the intended meaning. Similarly, 'mahayana' is correctly retained but lacks contextual depth. The translation of 'maendlelo ya Yoga ya Indiya' as 'the Yoga methods of India' is acceptable but could be more precise. Overall, the translation is acceptable but lacks the nuanced understanding required for a higher rating.",
@@ -1625,7 +1625,7 @@
           "grammar_reasoning": "The text contains grammatical errors such as 'Tuthecialism' (likely a misspelling of 'Tantricism'), 'Buddhishared' (likely 'Buddhist'), and awkward phrasing ('the way of love and love is extended by many techniques'). The sentence structure is unclear and lacks proper subject-verb agreement.",
           "grammar_rating": "Very Poor",
           "spelling_reasoning": "There are significant spelling errors ('Tuthecialism,' 'Buddhishared') that make the text difficult to understand. The errors are pervasive and affect readability.",
-          "spelling_rating": "Very Poor"
+          "spelling_rating": "Extremely Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation fails to accurately capture several culturally significant terms from the source text, leading to a loss of cultural context and meaning. For example, 'Tuthecialism' is a mistranslation of 'Tibetan Buddhism,' and 'Buddhishared' is incorrect for 'Buddha.' The phrase 'the way of love and love' is redundant and does not convey the nuanced meaning of 'የፍቅር መንገድ' (Ways of Love). Additionally, 'Yoga from India' is missing entirely. These errors significantly distort the cultural and religious context of the original text.",
@@ -3560,7 +3560,7 @@
               "category_from_term_extraction": "ecology"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -3696,7 +3696,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -3821,7 +3821,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -4441,7 +4441,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -4472,7 +4472,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -4521,7 +4521,7 @@
           "grammar_reasoning": "The text contains several grammatical errors, including awkward phrasing ('games of Cherry's swelling'), unclear subject-verb agreement ('were not held by the director and some royal court'), and an incomplete or confusing sentence structure. These issues hinder readability and clarity.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are noticeable spelling errors, such as 'Cherry's swelling' (likely a typo for 'Cherry blossoms') and 'spelling' (likely a typo for 'blossoms'). These errors significantly impact the text's readability.",
-          "spelling_rating": "Fair"
+          "spelling_rating": "Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation fails to accurately convey the cultural significance of the original terms. The term 'EJapan' is mistranslated as 'Japan,' losing the technological connotation. The phrase 'mintlango yo sungula ya ku rhumbuka ka cherry' is awkwardly rendered as 'games of Cherry's swelling,' which does not align with the suggested translation or explanation. The 'Imperial Court' is correctly translated but lacks contextual depth. Overall, the translation distorts cultural references and lacks clarity.",
@@ -4683,7 +4683,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -4701,7 +4701,7 @@
           "grammar_reasoning": "The text contains multiple grammatical errors, including incorrect verb agreement ('festures collaborates'), awkward phrasing ('in his own and other Emperor of Emperalism'), and unclear meaning. The sentence structure is convoluted and lacks coherence.",
           "grammar_rating": "Very Poor",
           "spelling_reasoning": "There are noticeable spelling errors ('festures' instead of 'festivals,' 'Emperalism' instead of 'Imperialism'). These mistakes significantly impact readability.",
-          "spelling_rating": "Poor"
+          "spelling_rating": "Very Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation attempts to convey the cultural elements but contains inaccuracies and awkward phrasing. The term 'Cherry festures' is a mistranslation of 'cherry blossoms,' and 'collaborates the emperor' is an incorrect rendering of the original context. The translation also fails to clearly distinguish between the emperor and the concept of imperialism, leading to confusion.",
@@ -4750,7 +4750,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -6055,7 +6055,7 @@
           "grammar_reasoning": "The text contains grammatical errors, such as the incorrect phrase 'indoneia food' (should be 'Indonesian food') and awkward phrasing ('is used in many of the various institutions'). The sentence structure is unclear and could be improved for better readability.",
           "grammar_rating": "Fair",
           "spelling_reasoning": "There is a noticeable spelling error ('indoneia' instead of 'Indonesia'). This affects the clarity and professionalism of the text.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation fails to accurately reflect the cultural significance of the source terms. The translation of 'Hambileswi' as 'Thank you' is incorrect, as the source term does not convey gratitude. The phrase 'swihlala swa 17,000 swakudya swa le Indoneia' is mistranslated, losing its biblical and spiritual connotations. Additionally, 'swiendlakalo swo tala eswifundzheni swo hambana hambana' is incorrectly translated, missing the collaborative and communal emphasis of the original phrase. The translation lacks cultural depth and accuracy, leading to significant misunderstandings.",
@@ -6260,7 +6260,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -7287,7 +7287,7 @@
           "grammar_reasoning": "The text contains grammatical errors, such as incorrect phrasing ('the most popular are peanuts, beer, sugar') and awkward constructions ('well-disistent spices'). The sentence structure is unclear and lacks proper flow.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There is a noticeable spelling error ('well-disistent' instead of 'well-distinct' or 'well-balanced'). The rest of the text is spelled correctly, but this error stands out.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation significantly deviates from the culturally significant terms in the source text, leading to a loss of cultural context and meaning. The translation inaccurately represents the terms, such as 'timanga' being mistranslated as 'tikanga' (a Māori term) and 'biriviri' being incorrectly linked to a Japanese term. The contextual clues in the source text, like 'Javanese foods' and specific ingredients, are not reflected accurately in the translation.",
@@ -7389,7 +7389,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -7484,7 +7484,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -7565,7 +7565,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -7583,7 +7583,7 @@
           "grammar_reasoning": "The text contains grammatical errors, such as incorrect phrasing ('the Japan's favorite gestures of Java') and awkward sentence structure ('pornoino, sugar (Japan, sugar sugar)'). These issues hinder readability and clarity.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are noticeable spelling errors ('Archpaloo' instead of 'Archipelago,' 'pornoino' which seems incorrect, and 'antical' instead of 'antique' or 'exotic'). These typos significantly impact the text's professionalism and readability.",
-          "spelling_rating": "Poor"
+          "spelling_rating": "Very Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation contains several inaccuracies and omissions in translating culturally significant terms. For example, 'Archaeology' is incorrectly used for 'አርቺፔላጎ', which should be 'Archpaloo'. The term 'Java' is correctly translated, but the context around it is confusing. The term 'Empty head or nothing' for 'ውቾሎኒ' is entirely incorrect, and 'Coconut sugar' is missing from the translation. The translation also introduces unrelated terms like 'pornoino' and 'antical spices', which are not present in the source text.",
@@ -7655,7 +7655,7 @@
           "grammar_reasoning": "The text contains grammatical errors such as incomplete sentences ('the javanese's favorite sweets are peanuts, curries, sugar (especially javanese coconut') and inconsistent punctuation. The phrase 'Now widespread in the archipelago, javanese cuisine includes simple dishes' is grammatically correct, but the rest lacks coherence.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are spelling errors like 'javaneese' (should be 'Javanese') and 'curries' (should be 'curries'). The text also lacks proper punctuation and capitalization, which affects readability.",
-          "spelling_rating": "Fair"
+          "spelling_rating": "Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation partially captures the cultural significance of the terms but misses or mistranslates some key elements. The term 'Archaeology' is a mistranslation of 'አርቺፔላጎ', which should refer to the 'archipelago' in this context. The term 'Java' is correctly translated, but 'ውቾሎኒ' is mistranslated as 'peanuts' instead of its intended meaning, which is unclear but likely refers to a specific dish or ingredient. 'Coconut sugar' is accurately translated. The cultural accuracy is compromised due to these errors.",
@@ -7721,7 +7721,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -8445,7 +8445,7 @@
           "grammar_reasoning": "The text contains grammatical errors, such as 'the Javanese cooked row features a row of simply seasoned dishes,' which is awkwardly phrased and unclear. Additionally, 'the dominant Javanese spice favors nuts, peppers, sugar (especially Javanese knuckles)' is confusing, as 'knuckles' seems out of place and may be a mistranslation or typo. The sentence structure is inconsistent and disrupts readability.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are no obvious spelling errors in the text, though 'knuckles' may be a typo or mistranslation of another word (e.g., 'sugar knobs' or a specific term). The spelling is otherwise correct, but the oddity of 'knuckles' stands out.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation captures the essence of the culturally significant terms but misses some nuances. 'Javanese cuisine' is accurately translated, but 'Javanese knuckles' is a mistranslation of 'Javanese na asukal ng buko' (Javanese coconut sugar), which could confuse readers. The context of the dishes and spices is preserved, but the error in translating the sugar term affects the cultural accuracy.",
@@ -8483,7 +8483,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -8675,7 +8675,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -8739,7 +8739,7 @@
           "grammar_reasoning": "The text contains grammatical errors, such as the incorrect use of 'lived on wild animals' (should be 'lived among wild animals' or 'depended on wild animals for survival'). The phrase 'seen ants' is unclear and likely a mistranslation or typo. The sentence structure is awkward and lacks clarity.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "The word 'seen ants' appears to be a typo or mistranslation, possibly intended to be 'spotted deer' or another term. This significantly impacts readability.",
-          "spelling_rating": "Fair"
+          "spelling_rating": "Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation accurately translates 'Vasundarban' to 'Sundarbans,' which is the correct English term for the vast mangrove forest in the Ganges Delta. The translation also retains the cultural and ecological significance of the region, as it mentions the presence of wildlife like the Bengal tiger (referred to as 'royal leopards' in the translation, which is a minor deviation but still conveys the idea of a significant predator). The context of the source text, including the mention of wildlife and the region's name, is preserved in the translation.",
@@ -8797,7 +8797,7 @@
               "category_from_term_extraction": "ecology"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -8848,7 +8848,7 @@
           "grammar_reasoning": "The text contains grammatical errors such as 'the Arkbums' (likely a typo for 'the Sundarbans'), 'are diligent' (incorrect usage; likely meant 'reside' or 'are found'), and '30,000' lacks context (likely referring to deer or another species). The sentence structure is awkward and unclear.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "The word 'Arkbums' is a clear misspelling of 'Sundarbans,' and 'diligent' is incorrectly used, possibly a typo for another word. The spelling errors significantly impact readability.",
-          "spelling_rating": "Poor"
+          "spelling_rating": "Very Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation inaccurately translates culturally significant terms, leading to a loss of cultural context and meaning. For instance, 'ሰንዳርባኖች' is mistranslated as 'Arkbums' instead of 'shared taxis,' and 'ሚዳቋ' is incorrectly rendered as 'diligent' instead of 'deer.' The only accurate translation is 'Royal Bengal tigers,' which retains the cultural significance of the term. The mistranslations distort the original meaning and fail to convey the ecological and social-cultural context of the source text.",
@@ -8950,7 +8950,7 @@
               "category_from_term_extraction": "ecology"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -9007,7 +9007,7 @@
               "category_from_term_extraction": "ecology"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -9141,7 +9141,7 @@
               "category_from_term_extraction": "ecology"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -9222,7 +9222,7 @@
           "grammar_reasoning": "The text demonstrates strong grammar with no noticeable errors. The sentence structure is clear, and the tense consistency is maintained throughout.",
           "grammar_rating": "Very Good",
           "spelling_reasoning": "There is one spelling error: 'Sundalvans' should be 'Sundarbans,' and 'Axillary Deer' should be 'Axis Deer.' These errors are noticeable but do not severely hinder readability.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation captures the cultural and ecological significance of the Sundarbans, Royal Bengal Tiger, and Axis deer accurately. The terms are translated correctly, and the context of the wildlife sanctuary is preserved. However, the term 'Axillary Deer' is a minor mistranslation of 'Axis deer,' which slightly detracts from the overall accuracy.",
@@ -9289,7 +9289,7 @@
           "grammar_reasoning": "The text demonstrates strong grammar with no errors in subject-verb agreement, tense consistency, or sentence structure. The use of 'has been' and 'is now' correctly reflects the timeline.",
           "grammar_rating": "Very Good",
           "spelling_reasoning": "There is a noticeable spelling error ('Akshasi' instead of 'Akshay'), which is likely a typo. Otherwise, the spelling is correct.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation captures the cultural and ecological significance of the Sundarbans, the Royal Bengal Tiger, and the Axis deer accurately. However, the term 'Akshasi tigers' is a mistranslation of 'アクシスジカ' (Axis deer), which could lead to confusion. The rest of the translation is culturally appropriate and maintains the context of the original text.",
@@ -9585,7 +9585,7 @@
           "grammar_reasoning": "The text demonstrates strong grammatical structure with proper subject-verb agreement and tense consistency. However, there is a minor error in the phrase '400 Royal Bengala tiger,' where 'Bengala' should be 'Bengal' and 'tiger' should be pluralized as 'tigers.'",
           "grammar_rating": "Very Good",
           "spelling_reasoning": "The spelling is generally correct, but there is a typo in 'Bengala,' which should be 'Bengal.' Additionally, 'deer spots' is unclear; it might be intended as 'deer species' or 'deer spotted.'",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation captures the cultural and ecological significance of the Sundarbans, the Royal Bengal tiger, and the spotted deer accurately. The terms are translated correctly, and the context is preserved, reflecting the biodiversity and cultural importance of the region.",
@@ -9839,7 +9839,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -9901,7 +9901,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -9962,7 +9962,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -9980,7 +9980,7 @@
           "grammar_reasoning": "The text contains grammatical errors, such as the incomplete sentence 'which is expected to' and the repetition of 'deer deer.' These issues disrupt the flow and clarity of the text.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are no spelling errors in the text, but the repetition of 'deer deer' is a typographical issue.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation captures the basic cultural and ecological significance of the terms, such as 'Suantongphon' (สุนทรพน) as a wildlife sanctuary and the accurate translation of 'Bengal tiger' (เสือโคร่งเบงกอล) and 'Spotted deer' (กวางดาว). However, the translation is somewhat awkward and repetitive ('deer deer'), which detracts from the overall quality. The cultural context is preserved, but the phrasing could be improved for clarity and fluency.",
@@ -10903,7 +10903,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -11348,7 +11348,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -11415,7 +11415,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -11482,7 +11482,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -11500,7 +11500,7 @@
           "grammar_reasoning": "The text contains grammatical errors such as incorrect pluralization ('Matches of Mucie Pets' should likely be 'Matches of Mucie Pets include'), awkward phrasing ('three main structures called the sun's temple and three mirror'), and unclear meaning ('three mirror' lacks context).",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are minor spelling issues ('Mucie Pets' might be a typo for 'Mucie Pets' or similar, and 'spelling' is misspelled as 'spelling').",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The candidate translation fails to accurately translate the culturally significant terms 'ማቹ ፒቹ' and 'የጸሐይ ቤተ መቅደስ'. The term 'ማቹ ፒቹ' is mistranslated as 'Matches of Mucie Pets', which is entirely incorrect and loses the historical and architectural significance of Machu Picchu. The term 'የጸሐይ ቤተ መቅደስ' is translated as 'sun's temple', which is somewhat accurate but lacks the cultural and religious depth implied by the original term. The translation also misses the context of 'three mirror', which is not clearly linked to the original text.",
@@ -12504,7 +12504,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -12690,7 +12690,7 @@
           "grammar_reasoning": "The text demonstrates solid command of grammar with only minor issues, such as the misspelling of 'Machu Picchu' and 'Intihuatana,' which are proper nouns. The sentence structure is clear and coherent.",
           "grammar_rating": "Good",
           "spelling_reasoning": "There are noticeable spelling errors in proper nouns ('Machu Pichu' instead of 'Machu Picchu' and 'intihuatana' instead of 'Intihuatana'). These errors distract from the text's professionalism and accuracy.",
-          "spelling_rating": "Acceptable"
+          "spelling_rating": "Fair / Acceptable"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation accurately captures the cultural significance of the terms related to Machu Picchu and its structures. The use of 'Intihuatana,' 'Temple of the Sun,' and 'Room with Three Windows' aligns well with the original terms and their cultural context. The translation maintains the authenticity and specificity of the cultural references, ensuring that the reader understands the historical and cultural importance of these structures.",
@@ -12921,7 +12921,7 @@
           "grammar_reasoning": "The text contains several grammatical errors, including incomplete sentences ('Consisting of 3 main structures, including stone'), awkward phrasing ('indicating the time of Inthua'), and lack of clarity in the description of the structures. The sentence structure is fragmented and lacks proper flow.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are noticeable spelling errors ('indicating' is misspelled as 'indicating', 'Inthua' is unclear and possibly misspelled). The text also lacks proper punctuation and capitalization in places.",
-          "spelling_rating": "Fair"
+          "spelling_rating": "Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation captures the main cultural elements but contains some inaccuracies and awkward phrasing. The term 'Machu Chujikhu' is a mistranslation of 'Machu Picchu,' which is a significant error. The term 'Inthua' is also incorrect for 'Intihuatana.' However, 'Temple of the Sun' and 'Room of 3 windows' are correctly translated, though the latter lacks the specificity of 'Three Windows.' The translation provides a basic understanding but misses the cultural depth and accuracy required for a nuanced representation.",
@@ -12979,7 +12979,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -13125,7 +13125,7 @@
           "grammar_reasoning": "The text contains several grammatical errors, including incorrect prepositions ('passes by the Mozambican board to east' should be 'borders Mozambique to the east'), incorrect phrasing ('on the Southern Society' should be 'to the south'), and awkward sentence structure. These errors hinder readability and clarity.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are noticeable spelling errors, such as 'board' instead of 'border' and 'Society' instead of 'south.' These mistakes distract from the text's meaning.",
-          "spelling_rating": "Fair"
+          "spelling_rating": "Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation accurately retains the culturally significant terms 'Kruger National Park (KNP)' and 'Crocodile River,' which are directly transliterated and maintain their cultural and ecological significance. However, the term 'Afrika Dzonga' is translated as 'South Africa,' which is linguistically accurate but loses the cultural nuance of the Tsonga language term. The contextual clues in the source text ('northeast of South Africa,' 'Mozambican board to east,' 'Zimbabwe to the north') support the geographical and cultural context of these terms. The translation is mostly accurate but could benefit from retaining 'Afrika Dzonga' to preserve the cultural flavor.",
@@ -13410,7 +13410,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -13490,7 +13490,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -13570,7 +13570,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -14548,7 +14548,7 @@
           "grammar_reasoning": "The text contains minor grammatical issues, such as the abbreviation 'TNK' for Kruger National Park, which is unconventional and unclear. The sentence structure is generally correct, but the phrasing could be smoother (e.g., 'the southern border is the Buaya River' could be reworded for better flow).",
           "grammar_rating": "Fair",
           "spelling_reasoning": "There are noticeable spelling errors, such as 'Mozambik' (should be 'Mozambique') and 'Buaya River' (likely a misspelling of 'Limpopo River'). These errors affect readability and accuracy.",
-          "spelling_rating": "Fair"
+          "spelling_rating": "Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation accurately captures the cultural significance of 'Kruger National Park' and 'Crocodile River,' using appropriate terms that reflect the original meaning. However, the term 'Sungai Buaya' is correctly translated as 'Crocodile River,' but the explanation provided in the culturally significant terms list refers to a river in Malaysia, not South Africa. This discrepancy does not affect the translation's accuracy but highlights a potential error in the provided explanation.",
@@ -15491,7 +15491,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -15533,7 +15533,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -15765,7 +15765,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       }
     ],
@@ -16261,7 +16261,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -17229,7 +17229,7 @@
               "category_from_term_extraction": "material_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -17890,7 +17890,7 @@
           "grammar_reasoning": "The text contains grammatical errors such as 'mangrovs' (should be 'mangroves'), 'stretching 80 km (50 miles) from Bangladesh and Indian neighborhoods' (awkward phrasing; 'neighborhoods' is incorrect in this context). The sentence structure is unclear and lacks proper flow.",
           "grammar_rating": "Poor",
           "spelling_reasoning": "There are spelling errors like 'Sandarban' (should be 'Sundarbans') and 'mangrovs' (should be 'mangroves'). These errors affect readability.",
-          "spelling_rating": "Fair"
+          "spelling_rating": "Poor"
         },
         "cultural_agent_response": {
           "cultural_reasoning": "The translation inaccurately translates 'ሳንዳርባን' as 'shared taxis' in the culturally significant terms list, which is incorrect for the context of the source text. The source text refers to 'Sandarban' as a geographical location, not a mode of transport. The translation of 'የማንግሮቭ ዳርቻ' as 'mangrove coast' is accurate, but the overall cultural accuracy is compromised by the incorrect translation of 'ሳንዳርባን'.",
@@ -17926,7 +17926,7 @@
               "category_from_term_extraction": "ecology"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -18791,7 +18791,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -18980,7 +18980,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {
@@ -20260,7 +20260,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -20445,7 +20445,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       },
       {
@@ -20506,7 +20506,7 @@
               "category_from_term_extraction": "social_culture"
             }
           ],
-          "cultural_accuracy_rating": "Poor"
+          "cultural_accuracy_rating": "Very Poor"
         }
       }
     ],
@@ -21058,7 +21058,7 @@
               "category_from_term_extraction": "organisations_customs_ideas"
             }
           ],
-          "cultural_accuracy_rating": "Fair"
+          "cultural_accuracy_rating": "Poor"
         }
       },
       {

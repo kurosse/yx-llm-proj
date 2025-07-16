@@ -16,6 +16,7 @@ class CulturallySignificantTermWithExplanation(BaseModel):
     source_original: str
     source_translated: str
     explanation: str
+    category: str
 
 
 class TermExtractionAgentResponseType(BaseModel):
@@ -30,7 +31,7 @@ class CulturallySignficantTermAndClues(BaseModel):
     surrounding_clues_from_candidate: list[str]
     candidate_translation_evaluation: str
     translated_correctly: bool
-
+    category_from_term_extraction: str | None
 
 class CulturalAgentResponseType(BaseModel):
     cultural_reasoning: str | None

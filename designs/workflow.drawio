@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" scale="3" border="0">
     <diagram id="AVvKSvSjIw2pfHn7HyiM" name="Page-1">
-        <mxGraphModel dx="957" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1383" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -42,10 +42,10 @@
                 <mxCell id="34" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;source: sentence_in_lang_x,&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;cand_1: english_translation_1,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;cand_2: english_translation_2,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;...&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;cand_n: english_translation_n&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=10;" parent="1" vertex="1">
                     <mxGeometry x="50" y="240" width="190" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="Best candidate translation chosen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="36" value="ALTScore for each candidate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="560" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="18" target="41">
+                <mxCell id="56" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="18" target="41" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="430" y="600" as="sourcePoint"/>
                         <mxPoint x="480" y="550" as="targetPoint"/>
@@ -57,76 +57,76 @@
                 <mxCell id="19" value="Orchestrator Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
                     <mxGeometry x="310" y="224.0006896551724" width="180" height="25.862068965517242" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Extracts &lt;b&gt;culturally specific terms&lt;/b&gt; from the source sentence and translates them to English with the help of the Internet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#FF9999;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="41" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Extracts &lt;b&gt;culturally specific terms&lt;/b&gt; from the source sentence and translates them to English with the help of the Internet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#FF9999;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="280" y="435" width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Cultural Term &lt;br&gt;Extraction Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="42" value="Cultural Term &lt;br&gt;Extraction Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="310" y="449.99724137931037" width="180" height="16.551724137931036" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="41" target="53">
+                <mxCell id="57" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="41" target="53" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="460" as="sourcePoint"/>
                         <mxPoint x="440" y="410" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="41" target="6">
+                <mxCell id="59" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" parent="1" source="41" target="6" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="430" y="490" as="sourcePoint"/>
                         <mxPoint x="480" y="440" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="66" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry y="435" width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ensures that the candidate translation follows proper grammatical rules and spelling.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="66">
+                <mxCell id="47" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ensures that the candidate translation follows proper grammatical rules and spelling.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="66" vertex="1">
                     <mxGeometry width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="Grammar and Spellcheck Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="66">
+                <mxCell id="48" value="Grammar and Spellcheck Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="66" vertex="1">
                     <mxGeometry x="30" y="8.269999999999982" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="67" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="560" y="435" width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Identifies culturally specific term (CST) pairs from the source and candidates and checks if translation captures full cultural meaning.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="67">
+                <mxCell id="53" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Identifies culturally specific term (CST) pairs from the source and candidates and checks if translation captures full cultural meaning.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="67" vertex="1">
                     <mxGeometry width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="Cultural Analysis Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="67">
+                <mxCell id="54" value="Cultural Analysis Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="67" vertex="1">
                     <mxGeometry x="30" y="8.269999999999982" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="68" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="6" y="441" width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ensures that the candidate translation follows proper grammatical rules and spelling.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="68">
+                <mxCell id="69" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ensures that the candidate translation follows proper grammatical rules and spelling.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="68" vertex="1">
                     <mxGeometry width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="Grammar and Spellcheck Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="68">
+                <mxCell id="70" value="Grammar and Spellcheck Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="68" vertex="1">
                     <mxGeometry x="30" y="8.269999999999982" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="71" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="12" y="446" width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ensures that the candidate translation follows proper grammatical rules and spelling.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="71">
+                <mxCell id="72" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;u&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ensures that the candidate translation follows proper grammatical rules and spelling.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="71" vertex="1">
                     <mxGeometry width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="Grammar and Spellcheck Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="71">
+                <mxCell id="73" value="Grammar and Spellcheck Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="71" vertex="1">
                     <mxGeometry x="30" y="8.269999999999982" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="74" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="566" y="440" width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Identifies culturally specific term (CST) pairs from the source and candidates and checks if translation captures full cultural meaning.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="74">
+                <mxCell id="75" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Identifies culturally specific term (CST) pairs from the source and candidates and checks if translation captures full cultural meaning.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="74" vertex="1">
                     <mxGeometry width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="Cultural Analysis Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="74">
+                <mxCell id="76" value="Cultural Analysis Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="74" vertex="1">
                     <mxGeometry x="30" y="8.269999999999982" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="77" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="572" y="446" width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Verifies whether the terms identified by the &lt;b&gt;Cultural Term Extraction Agent&lt;/b&gt; appear in the candidate translation and are correctly rendered in context.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="77">
+                <mxCell id="78" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;Role:&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Verifies whether the terms identified by the &lt;b&gt;Cultural Term Extraction Agent&lt;/b&gt; appear in the candidate translation and are correctly rendered in context.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;spacingRight=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="77" vertex="1">
                     <mxGeometry width="240" height="135" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="Cultural Analysis Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="77">
+                <mxCell id="79" value="Cultural Analysis Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="77" vertex="1">
                     <mxGeometry x="30" y="8.269999999999982" width="180" height="30" as="geometry"/>
                 </mxCell>
             </root>

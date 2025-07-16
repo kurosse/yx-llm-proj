@@ -26,7 +26,7 @@ async def tavily_culture_search(culturally_significant_term_from_source: str) ->
     Returns: a string with search results or an error note.
     """
     tavily_client = TavilyClient(os.getenv("TAVILY_API_KEY"))
-    query = f"What does {culturally_significant_term_from_source} mean in English?"
+    query = f"What does {culturally_significant_term_from_source} mean?"
     logger.info(f"Searching: {query}")
     response = tavily_client.search(query=query, max_results=5, include_answer=True)
     try:
